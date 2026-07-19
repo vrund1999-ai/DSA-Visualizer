@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --primary: 221 83% 53%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 222 47% 11%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 221 83% 53%;
+    --radius: 0.6rem;
+
+    /* Semantic highlight roles (shared across all visualizers) */
+    --role-compared: 38 92% 50%;   /* amber  */
+    --role-swapped: 347 77% 50%;   /* rose   */
+    --role-sorted: 142 71% 45%;    /* emerald*/
+    --role-current: 199 89% 48%;   /* sky    */
+    --role-visited: 258 90% 66%;   /* violet-ish */
+    --role-active: 199 89% 48%;    /* sky    */
+    --role-path: 45 93% 47%;       /* gold   */
+    --role-pivot: 271 81% 56%;     /* purple */
+    --role-wall: 215 28% 27%;      /* slate  */
+    --role-target: 142 71% 45%;    /* emerald*/
+  }
+
+  .dark {
+    --background: 222 47% 7%;
+    --foreground: 210 40% 96%;
+    --card: 222 45% 10%;
+    --card-foreground: 210 40% 96%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 222 47% 11%;
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 96%;
+    --muted: 217 33% 15%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 217 33% 18%;
+    --accent-foreground: 210 40% 96%;
+    --border: 217 33% 20%;
+    --input: 217 33% 20%;
+    --ring: 224 76% 60%;
+
+    --role-compared: 38 95% 55%;
+    --role-swapped: 347 82% 58%;
+    --role-sorted: 142 69% 50%;
+    --role-current: 199 90% 55%;
+    --role-visited: 258 88% 70%;
+    --role-active: 199 90% 55%;
+    --role-path: 45 95% 55%;
+    --role-pivot: 271 85% 68%;
+    --role-wall: 215 20% 45%;
+    --role-target: 142 69% 50%;
+  }
+
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-feature-settings: "rlig" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+}
