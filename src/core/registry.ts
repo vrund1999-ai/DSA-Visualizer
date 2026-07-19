@@ -4,9 +4,10 @@ import type {
   CategoryMeta,
 } from "./types";
 import { sortingDefinitions } from "@/visualizers/sorting";
+import { searchingDefinitions } from "@/visualizers/searching";
+import { treeDefinitions } from "@/visualizers/trees";
+import { pathfindingDefinitions } from "@/visualizers/pathfinding";
 // Categories are added here as each is built:
-// import { pathfindingDefinitions } from "@/visualizers/pathfinding";
-// import { treeDefinitions } from "@/visualizers/trees";
 // import { linearDefinitions } from "@/visualizers/linear";
 
 export const CATEGORIES: CategoryMeta[] = [
@@ -18,32 +19,40 @@ export const CATEGORIES: CategoryMeta[] = [
     order: 1,
   },
   {
+    id: "searching",
+    label: "Searching",
+    description: "Finding a target within a collection",
+    icon: "Search",
+    order: 2,
+  },
+  {
     id: "pathfinding",
     label: "Pathfinding",
     description: "Graph traversal & shortest paths",
     icon: "Route",
-    order: 2,
+    order: 3,
   },
   {
     id: "trees",
     label: "Trees",
     description: "BSTs, traversals & balancing",
     icon: "GitBranch",
-    order: 3,
+    order: 4,
   },
   {
     id: "linear",
     label: "Linear Structures",
     description: "Arrays, stacks, queues, lists & hash tables",
     icon: "List",
-    order: 4,
+    order: 5,
   },
 ];
 
 const ALL: AnyVisualizerDefinition[] = [
   ...sortingDefinitions,
-  // ...pathfindingDefinitions,
-  // ...treeDefinitions,
+  ...searchingDefinitions,
+  ...pathfindingDefinitions,
+  ...treeDefinitions,
   // ...linearDefinitions,
 ];
 

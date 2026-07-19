@@ -4,6 +4,7 @@ import {
   GitBranch,
   List,
   Route,
+  Search,
   Sparkles,
   type LucideIcon,
 } from "lucide-react";
@@ -23,6 +24,7 @@ const ICONS: Record<string, LucideIcon> = {
   Route,
   GitBranch,
   List,
+  Search,
 };
 
 export function CatalogPage() {
