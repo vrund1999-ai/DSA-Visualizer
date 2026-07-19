@@ -94,6 +94,82 @@ function ControlRow({
     );
   }
 
-  // grid / text / custom: handled by dedicated visualizers later.
+  if (control.kind === "grid") {
+    return <GridEditor input={input} onInputChange={onInputChange} />;
+  }
+
+  // text / custom: no shared control — the visualizer's Randomize seeds input.
   return null;
+}
+
+/** Minimal structural shape of a pathfinding grid input. */
+interface GridLike {
+  rows: number;
+  cols: number;
+  walls: boolean[][];
+  start: [number, number];
+  end: [number, number];
+}
+
+const isGridLike = (v: unknown): v is GridLike =>
+  typeof v === "object" &&
+  v !== null &&
+  Array.isArray((v as GridLike).walls) &&
+  Array.isArray((v as GridLike).start);
+
+/**
+ * Click a cell to toggle a wall (start/end are protected). Editing pushes a new
+ * grid up via onInputChange; the visualizer re-runs on the updated grid.
+ */
+function GridEditor({
+  input,
+  onInputChange,
+}: {
+  input: unknown;
+  onInputChange: (input: unknown) => void;
+}) {
+  if (!isGridLike(input)) return null;
+  const { rows, cols, walls, start, end } = input;
+  const [sr, sc] = start;
+  const [er, ec] = end;
+
+  const toggle = (r: number, c: number) => {
+    if ((r === sr && c === sc) || (r === er && c === ec)) return;
+    const nextWalls = walls.map((row) => [...row]);
+    nextWalls[r][c] = !nextWalls[r][c];
+    onInputChange({ ...input, walls: nextWalls });
+  };
+
+  return (
+    <div className="flex flex-col gap-1.5">
+      <span className="text-xs text-muted-foreground">
+        Click cells to add or remove walls
+      </span>
+      <div
+        className="grid gap-px"
+        style={{ gridTemplateColumns: `repeat(${cols}, minmax(0, 1fr))` }}
+      >
+        {Array.from({ length: rows }).map((_, r) =>
+          Array.from({ length: cols }).map((__, c) => {
+            const isStart = r === sr && c === sc;
+            const isEnd = r === er && c === ec;
+            let cls = "bg-card hover:bg-muted";
+            if (isStart || isEnd) cls = "bg-role-target cursor-default";
+            else if (walls[r][c]) cls = "bg-role-wall";
+            return (
+              <button
+                key={`${r},${c}`}
+                type="button"
+                aria-label={
+                  isStart ? "start" : isEnd ? "end" : `cell ${r},${c}`
+                }
+                onClick={() => toggle(r, c)}
+                className={`aspect-square rounded-[2px] border border-border/40 ${cls}`}
+              />
+            );
+          }),
+        )}
+      </div>
+    </div>
+  );
 }
