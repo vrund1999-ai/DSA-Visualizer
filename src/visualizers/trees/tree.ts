@@ -56,18 +56,14 @@ export function buildBST(values: TreeInput): BSTNode | null {
 export function snapshot(root: BSTNode | null): TreeData {
   const nodes: TreeData["nodes"] = [];
   let pos = 0;
-  const walk = (node: BSTNode | null, depth: number) => {
+  // Parent is derived from the current structure, so structural edits (e.g.
+  // BST delete relinking children) always render with correct edges.
+  const walk = (node: BSTNode | null, depth: number, parent: number | null) => {
     if (!node) return;
-    walk(node.left, depth + 1);
-    nodes.push({
-      id: node.id,
-      value: node.value,
-      depth,
-      pos: pos++,
-      parent: node.parent,
-    });
-    walk(node.right, depth + 1);
+    walk(node.left, depth + 1, node.id);
+    nodes.push({ id: node.id, value: node.value, depth, pos: pos++, parent });
+    walk(node.right, depth + 1, node.id);
   };
-  walk(root, 0);
+  walk(root, 0, null);
   return { nodes };
 }

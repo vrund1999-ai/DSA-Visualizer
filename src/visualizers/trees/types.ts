@@ -20,7 +20,7 @@ export interface TreeData {
 export type TreeInput = number[];
 
 export interface TreeOptions {
-  traversal?: "inorder" | "bfs";
+  traversal?: "inorder" | "preorder" | "postorder" | "bfs";
 }
 
 export type TreeStep = Step<TreeData>;

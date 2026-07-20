@@ -76,6 +76,42 @@ export function inorderTraversalSteps(input: TreeInput): TreeStep[] {
   );
 }
 
+/** Pre-order (node, left, right) depth-first traversal. */
+export function preorderTraversalSteps(input: TreeInput): TreeStep[] {
+  return traversalSteps(
+    input,
+    (root, visit) => {
+      const walk = (node: BSTNode | null) => {
+        if (!node) return;
+        visit(node, 2);
+        walk(node.left);
+        walk(node.right);
+      };
+      walk(root);
+    },
+    0,
+    5,
+  );
+}
+
+/** Post-order (left, right, node) depth-first traversal. */
+export function postorderTraversalSteps(input: TreeInput): TreeStep[] {
+  return traversalSteps(
+    input,
+    (root, visit) => {
+      const walk = (node: BSTNode | null) => {
+        if (!node) return;
+        walk(node.left);
+        walk(node.right);
+        visit(node, 4);
+      };
+      walk(root);
+    },
+    0,
+    5,
+  );
+}
+
 /** Level-order (breadth-first) traversal using a queue. */
 export function bfsTraversalSteps(input: TreeInput): TreeStep[] {
   return traversalSteps(

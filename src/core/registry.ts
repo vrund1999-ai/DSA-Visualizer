@@ -7,8 +7,10 @@ import { sortingDefinitions } from "@/visualizers/sorting";
 import { searchingDefinitions } from "@/visualizers/searching";
 import { treeDefinitions } from "@/visualizers/trees";
 import { pathfindingDefinitions } from "@/visualizers/pathfinding";
-// Categories are added here as each is built:
-// import { linearDefinitions } from "@/visualizers/linear";
+import { linearDefinitions } from "@/visualizers/linear";
+import { dpDefinitions } from "@/visualizers/dp";
+import { stringDefinitions } from "@/visualizers/strings";
+import { backtrackingDefinitions } from "@/visualizers/backtracking";
 
 export const CATEGORIES: CategoryMeta[] = [
   {
@@ -46,6 +48,27 @@ export const CATEGORIES: CategoryMeta[] = [
     icon: "List",
     order: 5,
   },
+  {
+    id: "dp",
+    label: "Dynamic Programming",
+    description: "Bottom-up tables & optimal substructure",
+    icon: "Table2",
+    order: 6,
+  },
+  {
+    id: "backtracking",
+    label: "Backtracking",
+    description: "Systematic search that undoes bad choices",
+    icon: "Undo2",
+    order: 7,
+  },
+  {
+    id: "strings",
+    label: "Strings",
+    description: "Pattern matching & text algorithms",
+    icon: "Type",
+    order: 8,
+  },
 ];
 
 const ALL: AnyVisualizerDefinition[] = [
@@ -53,7 +76,10 @@ const ALL: AnyVisualizerDefinition[] = [
   ...searchingDefinitions,
   ...pathfindingDefinitions,
   ...treeDefinitions,
-  // ...linearDefinitions,
+  ...linearDefinitions,
+  ...dpDefinitions,
+  ...backtrackingDefinitions,
+  ...stringDefinitions,
 ];
 
 // Fail fast on duplicate slugs (dev safety).

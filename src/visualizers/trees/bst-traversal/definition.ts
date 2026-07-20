@@ -1,8 +1,13 @@
 import type { VisualizerDefinition } from "@/core/types";
 import type { TreeData, TreeInput, TreeOptions } from "../types";
 import { TreeRenderer } from "../TreeRenderer";
-import { inorderTraversalSteps, bfsTraversalSteps } from "./algorithm";
-import { INORDER_CODE, BFS_CODE } from "./code";
+import {
+  inorderTraversalSteps,
+  preorderTraversalSteps,
+  postorderTraversalSteps,
+  bfsTraversalSteps,
+} from "./algorithm";
+import { INORDER_CODE, PREORDER_CODE, POSTORDER_CODE, BFS_CODE } from "./code";
 import { makeTreeInput } from "../input";
 
 const arrayInput = {
@@ -36,6 +41,46 @@ export const bstInorderDefinition: VisualizerDefinition<
   makeDefaultInput: () => makeTreeInput(9),
   defaultOptions: { traversal: "inorder" },
   buildSteps: (input) => inorderTraversalSteps(input),
+  Renderer: TreeRenderer,
+};
+
+export const bstPreorderDefinition: VisualizerDefinition<
+  TreeInput,
+  TreeData,
+  TreeOptions
+> = {
+  id: "bst-preorder",
+  title: "BST Pre-order Traversal",
+  category: "trees",
+  summary: "Depth-first node→left→right walk (useful for copying/serializing a tree).",
+  tags: ["binary search tree", "traversal", "DFS"],
+  code: PREORDER_CODE,
+  language: "typescript",
+  complexity: { timeBest: "O(n)", timeAverage: "O(n)", timeWorst: "O(n)", space: "O(h)" },
+  inputSchema: [arrayInput],
+  makeDefaultInput: () => makeTreeInput(9),
+  defaultOptions: { traversal: "preorder" },
+  buildSteps: (input) => preorderTraversalSteps(input),
+  Renderer: TreeRenderer,
+};
+
+export const bstPostorderDefinition: VisualizerDefinition<
+  TreeInput,
+  TreeData,
+  TreeOptions
+> = {
+  id: "bst-postorder",
+  title: "BST Post-order Traversal",
+  category: "trees",
+  summary: "Depth-first left→right→node walk (useful for deleting/freeing a tree).",
+  tags: ["binary search tree", "traversal", "DFS"],
+  code: POSTORDER_CODE,
+  language: "typescript",
+  complexity: { timeBest: "O(n)", timeAverage: "O(n)", timeWorst: "O(n)", space: "O(h)" },
+  inputSchema: [arrayInput],
+  makeDefaultInput: () => makeTreeInput(9),
+  defaultOptions: { traversal: "postorder" },
+  buildSteps: (input) => postorderTraversalSteps(input),
   Renderer: TreeRenderer,
 };
 
