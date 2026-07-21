@@ -40,6 +40,16 @@ import { kokoEatingBananasProblem } from "./koko-eating-bananas/definition";
 import { subsetsProblem } from "./subsets/definition";
 import { generateParenthesesProblem } from "./generate-parentheses/definition";
 import { validateBSTProblem } from "./validate-binary-search-tree/definition";
+import { maximumDepthProblem } from "./maximum-depth-of-binary-tree/definition";
+import { symmetricTreeProblem } from "./symmetric-tree/definition";
+import { levelOrderProblem } from "./binary-tree-level-order-traversal/definition";
+import { lcaBSTProblem } from "./lowest-common-ancestor-of-a-binary-search-tree/definition";
+import { setMatrixZeroesProblem } from "./set-matrix-zeroes/definition";
+import { spiralMatrixProblem } from "./spiral-matrix/definition";
+import { kthLargestProblem } from "./kth-largest-element-in-an-array/definition";
+import { topKFrequentProblem } from "./top-k-frequent-elements/definition";
+import { coinChangeProblem } from "./coin-change/definition";
+import { houseRobberProblem } from "./house-robber/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -93,4 +103,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   subsetsProblem,
   generateParenthesesProblem,
   validateBSTProblem,
+  maximumDepthProblem,
+  symmetricTreeProblem,
+  levelOrderProblem,
+  lcaBSTProblem,
+  setMatrixZeroesProblem,
+  spiralMatrixProblem,
+  kthLargestProblem,
+  topKFrequentProblem,
+  coinChangeProblem,
+  houseRobberProblem,
 ];
