@@ -12,7 +12,10 @@ export type CategoryId =
   | "searching"
   | "dp"
   | "backtracking"
-  | "strings";
+  | "strings"
+  // LeetCode problems reuse the VisualizerDefinition contract but live in their
+  // own registry/route tree; this id keeps them off the main algorithm catalog.
+  | "leetcode";
 
 export interface CategoryMeta {
   id: CategoryId;
