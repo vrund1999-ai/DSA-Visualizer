@@ -50,6 +50,16 @@ import { kthLargestProblem } from "./kth-largest-element-in-an-array/definition"
 import { topKFrequentProblem } from "./top-k-frequent-elements/definition";
 import { coinChangeProblem } from "./coin-change/definition";
 import { houseRobberProblem } from "./house-robber/definition";
+import { containsDuplicateProblem } from "./contains-duplicate/definition";
+import { singleNumberProblem } from "./single-number/definition";
+import { jumpGameProblem } from "./jump-game/definition";
+import { findMinRotatedProblem } from "./find-minimum-in-rotated-sorted-array/definition";
+import { maximumProductSubarrayProblem } from "./maximum-product-subarray/definition";
+import { uniquePathsProblem } from "./unique-paths/definition";
+import { minimumPathSumProblem } from "./minimum-path-sum/definition";
+import { search2DMatrixProblem } from "./search-a-2d-matrix/definition";
+import { wordBreakProblem } from "./word-break/definition";
+import { courseScheduleProblem } from "./course-schedule/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -113,4 +123,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   topKFrequentProblem,
   coinChangeProblem,
   houseRobberProblem,
+  containsDuplicateProblem,
+  singleNumberProblem,
+  jumpGameProblem,
+  findMinRotatedProblem,
+  maximumProductSubarrayProblem,
+  uniquePathsProblem,
+  minimumPathSumProblem,
+  search2DMatrixProblem,
+  wordBreakProblem,
+  courseScheduleProblem,
 ];
