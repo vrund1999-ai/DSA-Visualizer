@@ -20,6 +20,16 @@ import { mergeTwoSortedListsProblem } from "./merge-two-sorted-lists/definition"
 import { addTwoNumbersProblem } from "./add-two-numbers/definition";
 import { numberOfIslandsProblem } from "./number-of-islands/definition";
 import { wordSearchProblem } from "./word-search/definition";
+import { majorityElementProblem } from "./majority-element/definition";
+import { mergeSortedArrayProblem } from "./merge-sorted-array/definition";
+import { removeDuplicatesProblem } from "./remove-duplicates-from-sorted-array/definition";
+import { decodeStringProblem } from "./decode-string/definition";
+import { minStackProblem } from "./min-stack/definition";
+import { longestConsecutiveProblem } from "./longest-consecutive-sequence/definition";
+import { subarraySumEqualsKProblem } from "./subarray-sum-equals-k/definition";
+import { searchRotatedProblem } from "./search-in-rotated-sorted-array/definition";
+import { nextPermutationProblem } from "./next-permutation/definition";
+import { rotateImageProblem } from "./rotate-image/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -53,4 +63,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   addTwoNumbersProblem,
   numberOfIslandsProblem,
   wordSearchProblem,
+  majorityElementProblem,
+  mergeSortedArrayProblem,
+  removeDuplicatesProblem,
+  decodeStringProblem,
+  minStackProblem,
+  longestConsecutiveProblem,
+  subarraySumEqualsKProblem,
+  searchRotatedProblem,
+  nextPermutationProblem,
+  rotateImageProblem,
 ];
