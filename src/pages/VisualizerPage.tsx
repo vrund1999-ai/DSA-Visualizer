@@ -1,6 +1,7 @@
-import { useMemo } from "react";
+import { useMemo, type ReactNode } from "react";
 import { Link, useParams } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
+import type { AnyVisualizerDefinition } from "@/core/types";
 import { registry } from "@/core/registry";
 import { usePlayer } from "@/core/usePlayer";
 import { useVisualizerInput } from "@/core/useVisualizerInput";
@@ -16,18 +17,28 @@ export function VisualizerPage() {
   const { id } = useParams();
   const def = id ? registry.byId(id) : undefined;
   if (!def) return <NotFoundPage />;
-  return <VisualizerHost key={def.id} />;
+  return <VisualizerHost key={def.id} def={def} />;
 }
 
 /**
- * The generic host — the heart of the "one player system". Looks up the
- * definition, builds its steps (pure, memoized), and drives the shared player.
- * Re-mounts per algorithm via the `key` above so all hook state resets cleanly.
+ * The generic host — the heart of the "one player system". Given a definition,
+ * it builds its steps (pure, memoized) and drives the shared player. It is
+ * definition-driven (not registry-bound), so the LeetCode section reuses it
+ * with problems from a different registry. Callers pass `key={def.id}` so all
+ * hook state resets cleanly when the definition changes.
+ *
+ *  - `header`    replaces the default "All visualizers" back-link bar.
+ *  - `showInput` hides the input controls for definitions with no live input.
  */
-function VisualizerHost() {
-  const { id } = useParams();
-  const def = registry.byId(id!)!;
-
+export function VisualizerHost({
+  def,
+  header,
+  showInput = true,
+}: {
+  def: AnyVisualizerDefinition;
+  header?: ReactNode;
+  showInput?: boolean;
+}) {
   const { input, options, setInput, regenerate } = useVisualizerInput(def);
 
   // Pure generation, memoized on input/options.
@@ -42,15 +53,17 @@ function VisualizerHost() {
 
   return (
     <div className="flex flex-col">
-      <div className="px-4 pt-3">
-        <Link
-          to="/"
-          className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
-        >
-          <ArrowLeft className="size-4" />
-          All visualizers
-        </Link>
-      </div>
+      {header ?? (
+        <div className="px-4 pt-3">
+          <Link
+            to="/"
+            className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
+          >
+            <ArrowLeft className="size-4" />
+            All visualizers
+          </Link>
+        </div>
+      )}
       <VisualizerLayout
         title={def.title}
         summary={def.summary}
@@ -72,12 +85,14 @@ function VisualizerHost() {
         }
         complexity={<ComplexityBadge complexity={def.complexity} />}
         input={
-          <InputControls
-            def={def}
-            input={input}
-            onInputChange={setInput}
-            onRandomize={regenerate}
-          />
+          showInput ? (
+            <InputControls
+              def={def}
+              input={input}
+              onInputChange={setInput}
+              onRandomize={regenerate}
+            />
+          ) : null
         }
       />
     </div>
