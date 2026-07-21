@@ -30,6 +30,16 @@ import { subarraySumEqualsKProblem } from "./subarray-sum-equals-k/definition";
 import { searchRotatedProblem } from "./search-in-rotated-sorted-array/definition";
 import { nextPermutationProblem } from "./next-permutation/definition";
 import { rotateImageProblem } from "./rotate-image/definition";
+import { romanToIntegerProblem } from "./roman-to-integer/definition";
+import { palindromeNumberProblem } from "./palindrome-number/definition";
+import { firstUniqueCharProblem } from "./first-unique-character-in-a-string/definition";
+import { findPeakElementProblem } from "./find-peak-element/definition";
+import { rotateArrayProblem } from "./rotate-array/definition";
+import { reverseIntegerProblem } from "./reverse-integer/definition";
+import { kokoEatingBananasProblem } from "./koko-eating-bananas/definition";
+import { subsetsProblem } from "./subsets/definition";
+import { generateParenthesesProblem } from "./generate-parentheses/definition";
+import { validateBSTProblem } from "./validate-binary-search-tree/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -73,4 +83,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   searchRotatedProblem,
   nextPermutationProblem,
   rotateImageProblem,
+  romanToIntegerProblem,
+  palindromeNumberProblem,
+  firstUniqueCharProblem,
+  findPeakElementProblem,
+  rotateArrayProblem,
+  reverseIntegerProblem,
+  kokoEatingBananasProblem,
+  subsetsProblem,
+  generateParenthesesProblem,
+  validateBSTProblem,
 ];
