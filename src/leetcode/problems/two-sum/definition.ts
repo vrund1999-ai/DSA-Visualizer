@@ -22,6 +22,8 @@ export const twoSumProblem: LeetCodeProblem<
     "input has exactly one solution, and you may not use the same element twice.",
   topics: ["Array", "Hash Table"],
   tags: ["Array", "Hash Table"],
+  companies: ["Bloomberg"],
+  frequency: 100,
   code: TWO_SUM_CODE,
   language: "javascript",
   complexity: {

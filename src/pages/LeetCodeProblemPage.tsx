@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { ArrowLeft, ExternalLink } from "lucide-react";
+import { ArrowLeft, ExternalLink, Flame } from "lucide-react";
 import { leetcode } from "@/leetcode/registry";
 import { DIFFICULTY_CLASS, DIFFICULTY_LABEL } from "@/leetcode/difficulty";
 import { Badge } from "@/components/ui/badge";
@@ -40,6 +40,19 @@ export function LeetCodeProblemPage() {
           <ExternalLink className="size-3.5" />
         </a>
       </div>
+      {(problem.companies?.length || typeof problem.frequency === "number") && (
+        <div className="flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
+          {problem.companies && problem.companies.length > 0 && (
+            <span>Asked at {problem.companies.join(", ")}</span>
+          )}
+          {typeof problem.frequency === "number" && (
+            <span className="inline-flex items-center gap-1">
+              <Flame className="size-3.5 text-amber-500" />
+              {problem.frequency.toFixed(0)} frequency
+            </span>
+          )}
+        </div>
+      )}
       <p className="max-w-3xl text-sm text-muted-foreground">{problem.prompt}</p>
     </div>
   );

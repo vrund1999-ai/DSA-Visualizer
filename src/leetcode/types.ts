@@ -19,8 +19,11 @@ export interface LeetCodeProblem<
   TData = unknown,
   TOptions = unknown,
 > extends VisualizerDefinition<TInput, TData, TOptions> {
-  /** LeetCode problem number, e.g. 1 for "Two Sum". */
-  number: number;
+  /**
+   * LeetCode problem number, e.g. 1 for "Two Sum". Optional: bulk-imported
+   * problems come from a company CSV that has no problem number.
+   */
+  number?: number;
   difficulty: Difficulty;
   /** Canonical link to the problem on leetcode.com. */
   url: string;
@@ -28,6 +31,10 @@ export interface LeetCodeProblem<
   prompt: string;
   /** Topic tags, e.g. ["Array", "Hash Table"]. */
   topics?: string[];
+  /** Companies that have tagged this problem, e.g. ["Bloomberg"]. */
+  companies?: string[];
+  /** Interview frequency score (0–100) from the company list; used for sorting. */
+  frequency?: number;
 }
 
 /** Convenience: erase generics for storage in the registry list. */
