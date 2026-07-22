@@ -70,6 +70,16 @@ import { findAllAnagramsProblem } from "./find-all-anagrams-in-a-string/definiti
 import { combinationSumProblem } from "./combination-sum/definition";
 import { partitionEqualSubsetProblem } from "./partition-equal-subset-sum/definition";
 import { longestIncreasingSubsequenceProblem } from "./longest-increasing-subsequence/definition";
+import { sortColorsProblem } from "./sort-colors/definition";
+import { findDuplicateProblem } from "./find-the-duplicate-number/definition";
+import { charReplacementProblem } from "./longest-repeating-character-replacement/definition";
+import { permutationsProblem } from "./permutations/definition";
+import { subsetsIIProblem } from "./subsets-ii/definition";
+import { letterCombinationsProblem } from "./letter-combinations-of-a-phone-number/definition";
+import { meetingRoomsIIProblem } from "./meeting-rooms-ii/definition";
+import { taskSchedulerProblem } from "./task-scheduler/definition";
+import { implementTrieProblem } from "./implement-trie-prefix-tree/definition";
+import { kthLargestStreamProblem } from "./kth-largest-element-in-a-stream/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -153,4 +163,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   combinationSumProblem,
   partitionEqualSubsetProblem,
   longestIncreasingSubsequenceProblem,
+  sortColorsProblem,
+  findDuplicateProblem,
+  charReplacementProblem,
+  permutationsProblem,
+  subsetsIIProblem,
+  letterCombinationsProblem,
+  meetingRoomsIIProblem,
+  taskSchedulerProblem,
+  implementTrieProblem,
+  kthLargestStreamProblem,
 ];
