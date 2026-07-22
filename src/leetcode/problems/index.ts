@@ -60,6 +60,16 @@ import { minimumPathSumProblem } from "./minimum-path-sum/definition";
 import { search2DMatrixProblem } from "./search-a-2d-matrix/definition";
 import { wordBreakProblem } from "./word-break/definition";
 import { courseScheduleProblem } from "./course-schedule/definition";
+import { kthSmallestBSTProblem } from "./kth-smallest-element-in-a-bst/definition";
+import { pathSumProblem } from "./path-sum/definition";
+import { invertBinaryTreeProblem } from "./invert-binary-tree/definition";
+import { diameterProblem } from "./diameter-of-binary-tree/definition";
+import { dailyTemperaturesProblem } from "./daily-temperatures/definition";
+import { slidingWindowMaximumProblem } from "./sliding-window-maximum/definition";
+import { findAllAnagramsProblem } from "./find-all-anagrams-in-a-string/definition";
+import { combinationSumProblem } from "./combination-sum/definition";
+import { partitionEqualSubsetProblem } from "./partition-equal-subset-sum/definition";
+import { longestIncreasingSubsequenceProblem } from "./longest-increasing-subsequence/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -133,4 +143,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   search2DMatrixProblem,
   wordBreakProblem,
   courseScheduleProblem,
+  kthSmallestBSTProblem,
+  pathSumProblem,
+  invertBinaryTreeProblem,
+  diameterProblem,
+  dailyTemperaturesProblem,
+  slidingWindowMaximumProblem,
+  findAllAnagramsProblem,
+  combinationSumProblem,
+  partitionEqualSubsetProblem,
+  longestIncreasingSubsequenceProblem,
 ];
