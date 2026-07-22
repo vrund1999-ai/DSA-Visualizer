@@ -80,6 +80,16 @@ import { meetingRoomsIIProblem } from "./meeting-rooms-ii/definition";
 import { taskSchedulerProblem } from "./task-scheduler/definition";
 import { implementTrieProblem } from "./implement-trie-prefix-tree/definition";
 import { kthLargestStreamProblem } from "./kth-largest-element-in-a-stream/definition";
+import { sameTreeProblem } from "./same-tree/definition";
+import { balancedBinaryTreeProblem } from "./balanced-binary-tree/definition";
+import { inorderTraversalProblem } from "./binary-tree-inorder-traversal/definition";
+import { missingNumberProblem } from "./missing-number/definition";
+import { squaresSortedProblem } from "./squares-of-a-sorted-array/definition";
+import { plusOneProblem } from "./plus-one/definition";
+import { happyNumberProblem } from "./happy-number/definition";
+import { pascalsTriangleProblem } from "./pascals-triangle/definition";
+import { longestPalindromeProblem } from "./longest-palindrome/definition";
+import { fizzBuzzProblem } from "./fizz-buzz/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -173,4 +183,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   taskSchedulerProblem,
   implementTrieProblem,
   kthLargestStreamProblem,
+  sameTreeProblem,
+  balancedBinaryTreeProblem,
+  inorderTraversalProblem,
+  missingNumberProblem,
+  squaresSortedProblem,
+  plusOneProblem,
+  happyNumberProblem,
+  pascalsTriangleProblem,
+  longestPalindromeProblem,
+  fizzBuzzProblem,
 ];
