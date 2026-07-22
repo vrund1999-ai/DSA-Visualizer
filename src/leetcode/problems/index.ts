@@ -90,6 +90,16 @@ import { happyNumberProblem } from "./happy-number/definition";
 import { pascalsTriangleProblem } from "./pascals-triangle/definition";
 import { longestPalindromeProblem } from "./longest-palindrome/definition";
 import { fizzBuzzProblem } from "./fizz-buzz/definition";
+import { minCostClimbingStairsProblem } from "./min-cost-climbing-stairs/definition";
+import { rangeSumQueryProblem } from "./range-sum-query-immutable/definition";
+import { backspaceCompareProblem } from "./backspace-string-compare/definition";
+import { addBinaryProblem } from "./add-binary/definition";
+import { isomorphicStringsProblem } from "./isomorphic-strings/definition";
+import { wordPatternProblem } from "./word-pattern/definition";
+import { intersectionProblem } from "./intersection-of-two-arrays/definition";
+import { ransomNoteProblem } from "./ransom-note/definition";
+import { countPrimesProblem } from "./count-primes/definition";
+import { reverseWordsProblem } from "./reverse-words-in-a-string/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -193,4 +203,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   pascalsTriangleProblem,
   longestPalindromeProblem,
   fizzBuzzProblem,
+  minCostClimbingStairsProblem,
+  rangeSumQueryProblem,
+  backspaceCompareProblem,
+  addBinaryProblem,
+  isomorphicStringsProblem,
+  wordPatternProblem,
+  intersectionProblem,
+  ransomNoteProblem,
+  countPrimesProblem,
+  reverseWordsProblem,
 ];
