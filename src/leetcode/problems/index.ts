@@ -100,6 +100,16 @@ import { intersectionProblem } from "./intersection-of-two-arrays/definition";
 import { ransomNoteProblem } from "./ransom-note/definition";
 import { countPrimesProblem } from "./count-primes/definition";
 import { reverseWordsProblem } from "./reverse-words-in-a-string/definition";
+import { twoSumIIProblem } from "./two-sum-ii-input-array-is-sorted/definition";
+import { validPalindromeProblem } from "./valid-palindrome/definition";
+import { removeElementProblem } from "./remove-element/definition";
+import { searchInsertProblem } from "./search-insert-position/definition";
+import { lengthOfLastWordProblem } from "./length-of-last-word/definition";
+import { majorityElementIIProblem } from "./majority-element-ii/definition";
+import { sqrtxProblem } from "./sqrtx/definition";
+import { powxnProblem } from "./powx-n/definition";
+import { excelColumnProblem } from "./excel-sheet-column-number/definition";
+import { convertSortedArrayBSTProblem } from "./convert-sorted-array-to-binary-search-tree/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -213,4 +223,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   ransomNoteProblem,
   countPrimesProblem,
   reverseWordsProblem,
+  twoSumIIProblem,
+  validPalindromeProblem,
+  removeElementProblem,
+  searchInsertProblem,
+  lengthOfLastWordProblem,
+  majorityElementIIProblem,
+  sqrtxProblem,
+  powxnProblem,
+  excelColumnProblem,
+  convertSortedArrayBSTProblem,
 ];
