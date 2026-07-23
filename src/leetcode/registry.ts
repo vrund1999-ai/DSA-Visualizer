@@ -12,6 +12,10 @@ for (const p of leetcodeProblems) {
   bespokeSeen.add(p.id);
 }
 
+// Ids of problems with a hand-built (bespoke) visualizer, as opposed to the
+// generic placeholder. Used by the catalog's "Has visualizer" filter.
+const bespokeIds = new Set(leetcodeProblems.map((p) => p.id));
+
 // Merge bespoke + bulk. A hand-built problem always wins over a bulk placeholder
 // with the same slug (e.g. "two-sum" exists in both), so bespoke comes first.
 const ALL: AnyLeetCodeProblem[] = [];
@@ -56,5 +60,9 @@ export const leetcode = {
   /** Distinct company tags across all problems, sorted — for filter facets. */
   companies: (): string[] => uniqueSorted(ALL.flatMap((p) => p.companies ?? [])),
   count: (): number => ALL.length,
+  /** True when a problem has a hand-built visualizer (not the placeholder). */
+  hasVisualizer: (id: string): boolean => bespokeIds.has(id),
+  /** How many problems have a hand-built visualizer. */
+  visualizedCount: (): number => bespokeIds.size,
   difficultyOrder: DIFFICULTY_ORDER,
 };

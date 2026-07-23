@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { render, screen, fireEvent, within } from "@testing-library/react";
 import { MemoryRouter, Routes, Route } from "react-router-dom";
 import { LeetCodeCatalogPage } from "./LeetCodeCatalogPage";
 import { LeetCodeProblemPage } from "./LeetCodeProblemPage";
@@ -26,6 +26,24 @@ describe("LeetCode section", () => {
     expect(screen.getByLabelText("Filter by company")).toBeInTheDocument();
     // The highest-frequency problem (Two Sum) is on the first page.
     expect(screen.getByText("1. Two Sum")).toBeInTheDocument();
+  });
+
+  it("filters to only problems that have a visualizer", () => {
+    renderAt("/leetcode");
+
+    const main = () => screen.getByRole("heading", { name: "LeetCode" }).closest("main")!;
+
+    // A high-frequency placeholder-only problem is visible before filtering.
+    expect(within(main()).getByText(/Insert Delete GetRandom/)).toBeInTheDocument();
+
+    fireEvent.change(screen.getByLabelText("Filter by visualizer availability"), {
+      target: { value: "visualized" },
+    });
+
+    // Two Sum (built) survives with its "Visualizer" badge; the placeholder is gone.
+    expect(within(main()).getByText("1. Two Sum")).toBeInTheDocument();
+    expect(within(main()).getAllByText("Visualizer").length).toBeGreaterThan(0);
+    expect(within(main()).queryByText(/Insert Delete GetRandom/)).toBeNull();
   });
 
   it("renders the Two Sum detail page with header + its real visual", () => {

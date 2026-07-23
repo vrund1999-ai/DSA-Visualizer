@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { Code2, Flame, Search } from "lucide-react";
+import { Code2, Flame, Play, Search } from "lucide-react";
 import { leetcode } from "@/leetcode/registry";
 import { DIFFICULTY_CLASS, DIFFICULTY_LABEL } from "@/leetcode/difficulty";
 import type { Difficulty } from "@/leetcode/types";
@@ -18,6 +18,7 @@ import { cn } from "@/lib/utils";
 const PAGE_SIZE = 60;
 
 type SortKey = "frequency" | "difficulty" | "title";
+type VisualKey = "all" | "visualized" | "placeholder";
 
 const SELECT_CLASS =
   "h-9 rounded-md border border-input bg-background px-3 text-sm text-foreground " +
@@ -32,13 +33,14 @@ export function LeetCodeCatalogPage() {
   const [difficulty, setDifficulty] = useState<"all" | Difficulty>("all");
   const [topic, setTopic] = useState<string>("all");
   const [company, setCompany] = useState<string>("all");
+  const [visual, setVisual] = useState<VisualKey>("all");
   const [sort, setSort] = useState<SortKey>("frequency");
   const [visible, setVisible] = useState(PAGE_SIZE);
 
   // Any filter/sort change resets pagination back to the first page.
   useEffect(() => {
     setVisible(PAGE_SIZE);
-  }, [query, difficulty, topic, company, sort]);
+  }, [query, difficulty, topic, company, visual, sort]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -47,6 +49,11 @@ export function LeetCodeCatalogPage() {
       if (difficulty !== "all" && p.difficulty !== difficulty) return false;
       if (topic !== "all" && !p.topics?.includes(topic)) return false;
       if (company !== "all" && !p.companies?.includes(company)) return false;
+      if (visual !== "all") {
+        const built = leetcode.hasVisualizer(p.id);
+        if (visual === "visualized" && !built) return false;
+        if (visual === "placeholder" && built) return false;
+      }
       return true;
     });
 
@@ -62,7 +69,7 @@ export function LeetCodeCatalogPage() {
     }
     // "frequency" — `all` is already frequency-sorted, filter() preserves order.
     return result;
-  }, [all, query, difficulty, topic, company, sort]);
+  }, [all, query, difficulty, topic, company, visual, sort]);
 
   const shown = filtered.slice(0, visible);
 
@@ -75,9 +82,10 @@ export function LeetCodeCatalogPage() {
         </div>
         <h1 className="text-4xl font-bold tracking-tight">LeetCode</h1>
         <p className="mt-2 max-w-2xl text-muted-foreground">
-          {leetcode.count().toLocaleString()} company-tagged problems. Filter by
-          difficulty, topic or company, then step through an interactive
-          visualization of the ones that have been built.
+          {leetcode.count().toLocaleString()} company-tagged problems,{" "}
+          {leetcode.visualizedCount().toLocaleString()} with an interactive
+          visualizer. Filter by difficulty, topic, company, or whether it's been
+          built, then step through the solution line by line.
         </p>
       </section>
 
@@ -137,6 +145,17 @@ export function LeetCodeCatalogPage() {
 
         <select
           className={SELECT_CLASS}
+          value={visual}
+          onChange={(e) => setVisual(e.target.value as VisualKey)}
+          aria-label="Filter by visualizer availability"
+        >
+          <option value="all">All problems</option>
+          <option value="visualized">Has visualizer</option>
+          <option value="placeholder">Coming soon</option>
+        </select>
+
+        <select
+          className={SELECT_CLASS}
           value={sort}
           onChange={(e) => setSort(e.target.value as SortKey)}
           aria-label="Sort problems"
@@ -172,6 +191,12 @@ export function LeetCodeCatalogPage() {
                         {DIFFICULTY_LABEL[p.difficulty]}
                       </Badge>
                     </CardTitle>
+                    {leetcode.hasVisualizer(p.id) && (
+                      <span className="inline-flex w-fit items-center gap-1 rounded-full border border-primary/40 bg-primary/10 px-2 py-0.5 text-[10px] font-medium text-primary">
+                        <Play className="size-2.5 fill-current" />
+                        Visualizer
+                      </span>
+                    )}
                     <CardDescription>{p.summary}</CardDescription>
                   </CardHeader>
                   <CardContent className="mt-auto flex flex-col gap-2">

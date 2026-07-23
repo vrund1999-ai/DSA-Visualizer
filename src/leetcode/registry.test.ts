@@ -50,4 +50,13 @@ describe("leetcode registry", () => {
       expect(leetcode.byId(p.id)).toBeDefined();
     }
   });
+
+  it("reports which problems have a bespoke visualizer", () => {
+    expect(leetcode.visualizedCount()).toBe(leetcodeProblems.length);
+    // Every hand-built problem is flagged; a bulk placeholder is not.
+    for (const p of leetcodeProblems) {
+      expect(leetcode.hasVisualizer(p.id)).toBe(true);
+    }
+    expect(leetcode.hasVisualizer("lru-cache")).toBe(false);
+  });
 });
