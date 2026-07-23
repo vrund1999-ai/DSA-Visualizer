@@ -120,6 +120,16 @@ import { firstBadVersionProblem } from "./first-bad-version/definition";
 import { atoiProblem } from "./string-to-integer-atoi/definition";
 import { findDisappearedProblem } from "./find-all-numbers-disappeared-in-an-array/definition";
 import { summaryRangesProblem } from "./summary-ranges/definition";
+import { gasStationProblem } from "./gas-station/definition";
+import { strStrProblem } from "./find-the-index-of-the-first-occurrence-in-a-string/definition";
+import { containsDuplicateIIProblem } from "./contains-duplicate-ii/definition";
+import { maxAvgSubarrayProblem } from "./maximum-average-subarray-i/definition";
+import { isSubsequenceProblem } from "./is-subsequence/definition";
+import { singleNumberIIProblem } from "./single-number-ii/definition";
+import { subarrayProductProblem } from "./subarray-product-less-than-k/definition";
+import { findPivotIndexProblem } from "./find-pivot-index/definition";
+import { guessNumberProblem } from "./guess-number-higher-or-lower/definition";
+import { thirdMaximumProblem } from "./third-maximum-number/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -253,4 +263,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   atoiProblem,
   findDisappearedProblem,
   summaryRangesProblem,
+  gasStationProblem,
+  strStrProblem,
+  containsDuplicateIIProblem,
+  maxAvgSubarrayProblem,
+  isSubsequenceProblem,
+  singleNumberIIProblem,
+  subarrayProductProblem,
+  findPivotIndexProblem,
+  guessNumberProblem,
+  thirdMaximumProblem,
 ];
