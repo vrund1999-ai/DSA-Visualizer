@@ -149,6 +149,16 @@ import { nextGreaterElementProblem } from "./next-greater-element-i/definition";
 import { minRemoveValidParensProblem } from "./minimum-remove-to-make-valid-parentheses/definition";
 import { insertDeleteGetRandomProblem } from "./insert-delete-getrandom-o1/definition";
 import { lruCacheProblem } from "./lru-cache/definition";
+import { rottingOrangesProblem } from "./rotting-oranges/definition";
+import { removeAdjacentDuplicatesIIProblem } from "./remove-all-adjacent-duplicates-in-string-ii/definition";
+import { largestRectangleProblem } from "./largest-rectangle-in-histogram/definition";
+import { twoCitySchedulingProblem } from "./two-city-scheduling/definition";
+import { zigzagConversionProblem } from "./zigzag-conversion/definition";
+import { palindromePartitioningProblem } from "./palindrome-partitioning/definition";
+import { allPathsProblem } from "./all-paths-from-source-to-target/definition";
+import { nQueensProblem } from "./n-queens/definition";
+import { mergeKSortedListsProblem } from "./merge-k-sorted-lists/definition";
+import { medianTwoSortedProblem } from "./median-of-two-sorted-arrays/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -311,4 +321,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   minRemoveValidParensProblem,
   insertDeleteGetRandomProblem,
   lruCacheProblem,
+  rottingOrangesProblem,
+  removeAdjacentDuplicatesIIProblem,
+  largestRectangleProblem,
+  twoCitySchedulingProblem,
+  zigzagConversionProblem,
+  palindromePartitioningProblem,
+  allPathsProblem,
+  nQueensProblem,
+  mergeKSortedListsProblem,
+  medianTwoSortedProblem,
 ];
