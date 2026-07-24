@@ -225,6 +225,16 @@ import { addDigitsProblem } from "./add-digits/definition";
 import { minDaysBouquetsProblem } from "./minimum-number-of-days-to-make-m-bouquets/definition";
 import { combinationSumIIProblem } from "./combination-sum-ii/definition";
 import { designOrderedStreamProblem } from "./design-an-ordered-stream/definition";
+import { binaryTreeRightSideViewProblem } from "./binary-tree-right-side-view/definition";
+import { implementStackQueuesProblem } from "./implement-stack-using-queues/definition";
+import { minimumAbsDifferenceProblem } from "./minimum-absolute-difference/definition";
+import { minimumWindowSubstringProblem } from "./minimum-window-substring/definition";
+import { nextGreaterElementIIIProblem } from "./next-greater-element-iii/definition";
+import { search2DMatrixIIProblem } from "./search-a-2d-matrix-ii/definition";
+import { sortCharsByFrequencyProblem } from "./sort-characters-by-frequency/definition";
+import { surroundedRegionsProblem } from "./surrounded-regions/definition";
+import { asteroidCollisionProblem } from "./asteroid-collision/definition";
+import { arrangingCoinsProblem } from "./arranging-coins/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -463,4 +473,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   minDaysBouquetsProblem,
   combinationSumIIProblem,
   designOrderedStreamProblem,
+  binaryTreeRightSideViewProblem,
+  implementStackQueuesProblem,
+  minimumAbsDifferenceProblem,
+  minimumWindowSubstringProblem,
+  nextGreaterElementIIIProblem,
+  search2DMatrixIIProblem,
+  sortCharsByFrequencyProblem,
+  surroundedRegionsProblem,
+  asteroidCollisionProblem,
+  arrangingCoinsProblem,
 ];
