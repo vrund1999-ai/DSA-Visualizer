@@ -197,6 +197,15 @@ import { lcaBinaryTreeProblem } from "./lowest-common-ancestor-of-a-binary-tree/
 import { evaluateDivisionProblem } from "./evaluate-division/definition";
 import { wordLadderProblem } from "./word-ladder/definition";
 import { reverseNodesKGroupProblem } from "./reverse-nodes-in-k-group/definition";
+import { onlineStockSpanProblem } from "./online-stock-span/definition";
+import { deleteNodeLinkedListProblem } from "./delete-node-in-a-linked-list/definition";
+import { intersectionTwoListsProblem } from "./intersection-of-two-linked-lists/definition";
+import { minStepsAnagramProblem } from "./minimum-number-of-steps-to-make-two-strings-anagram/definition";
+import { splitArrayLargestSumProblem } from "./split-array-largest-sum/definition";
+import { factorialTrailingZeroesProblem } from "./factorial-trailing-zeroes/definition";
+import { findMissingRepeatedProblem } from "./find-missing-and-repeated-values/definition";
+import { topKFrequentWordsProblem } from "./top-k-frequent-words/definition";
+import { populatingNextRightPointersIIProblem } from "./populating-next-right-pointers-in-each-node-ii/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -407,4 +416,13 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   evaluateDivisionProblem,
   wordLadderProblem,
   reverseNodesKGroupProblem,
+  onlineStockSpanProblem,
+  deleteNodeLinkedListProblem,
+  intersectionTwoListsProblem,
+  minStepsAnagramProblem,
+  splitArrayLargestSumProblem,
+  factorialTrailingZeroesProblem,
+  findMissingRepeatedProblem,
+  topKFrequentWordsProblem,
+  populatingNextRightPointersIIProblem,
 ];
