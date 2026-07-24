@@ -159,6 +159,16 @@ import { allPathsProblem } from "./all-paths-from-source-to-target/definition";
 import { nQueensProblem } from "./n-queens/definition";
 import { mergeKSortedListsProblem } from "./merge-k-sorted-lists/definition";
 import { medianTwoSortedProblem } from "./median-of-two-sorted-arrays/definition";
+import { mergeStringsAlternatelyProblem } from "./merge-strings-alternately/definition";
+import { stringCompressionProblem } from "./string-compression/definition";
+import { validTriangleNumberProblem } from "./valid-triangle-number/definition";
+import { frequencyMostFrequentProblem } from "./frequency-of-the-most-frequent-element/definition";
+import { reorderListProblem } from "./reorder-list/definition";
+import { rotateListProblem } from "./rotate-list/definition";
+import { candyProblem } from "./candy/definition";
+import { numberOfProvincesProblem } from "./number-of-provinces/definition";
+import { constructTreeProblem } from "./construct-binary-tree-from-preorder-and-inorder-traversal/definition";
+import { invalidTransactionsProblem } from "./invalid-transactions/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -331,4 +341,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   nQueensProblem,
   mergeKSortedListsProblem,
   medianTwoSortedProblem,
+  mergeStringsAlternatelyProblem,
+  stringCompressionProblem,
+  validTriangleNumberProblem,
+  frequencyMostFrequentProblem,
+  reorderListProblem,
+  rotateListProblem,
+  candyProblem,
+  numberOfProvincesProblem,
+  constructTreeProblem,
+  invalidTransactionsProblem,
 ];
