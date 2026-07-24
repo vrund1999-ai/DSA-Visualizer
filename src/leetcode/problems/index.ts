@@ -179,6 +179,14 @@ import { verticalOrderProblem } from "./binary-tree-vertical-order-traversal/def
 import { populatingNextRightPointersProblem } from "./populating-next-right-pointers-in-each-node/definition";
 import { addTwoNumbersIIProblem } from "./add-two-numbers-ii/definition";
 import { findTheWinnerProblem } from "./find-the-winner-of-the-circular-game/definition";
+import { nextGreaterElementIIProblem } from "./next-greater-element-ii/definition";
+import { uniquePathsIIProblem } from "./unique-paths-ii/definition";
+import { peakIndexMountainProblem } from "./peak-index-in-a-mountain-array/definition";
+import { shipPackagesProblem } from "./capacity-to-ship-packages-within-d-days/definition";
+import { lexicographicalNumbersProblem } from "./lexicographical-numbers/definition";
+import { sortByPowerValueProblem } from "./sort-integers-by-the-power-value/definition";
+import { copyListRandomPointerProblem } from "./copy-list-with-random-pointer/definition";
+import { verticalTraversalProblem } from "./vertical-order-traversal-of-a-binary-tree/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -371,4 +379,12 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   populatingNextRightPointersProblem,
   addTwoNumbersIIProblem,
   findTheWinnerProblem,
+  nextGreaterElementIIProblem,
+  uniquePathsIIProblem,
+  peakIndexMountainProblem,
+  shipPackagesProblem,
+  lexicographicalNumbersProblem,
+  sortByPowerValueProblem,
+  copyListRandomPointerProblem,
+  verticalTraversalProblem,
 ];
