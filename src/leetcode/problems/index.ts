@@ -215,6 +215,16 @@ import { divideTwoIntegersProblem } from "./divide-two-integers/definition";
 import { fruitIntoBasketsProblem } from "./fruit-into-baskets/definition";
 import { maxConsecutiveOnesIIIProblem } from "./max-consecutive-ones-iii/definition";
 import { searchRotatedIIProblem } from "./search-in-rotated-sorted-array-ii/definition";
+import { implementQueueStacksProblem } from "./implement-queue-using-stacks/definition";
+import { numberOfRecentCallsProblem } from "./number-of-recent-calls/definition";
+import { largestNumberProblem } from "./largest-number/definition";
+import { longestValidParenthesesProblem } from "./longest-valid-parentheses/definition";
+import { removeDuplicatesIIProblem } from "./remove-duplicates-from-sorted-array-ii/definition";
+import { removeLinkedListElementsProblem } from "./remove-linked-list-elements/definition";
+import { addDigitsProblem } from "./add-digits/definition";
+import { minDaysBouquetsProblem } from "./minimum-number-of-days-to-make-m-bouquets/definition";
+import { combinationSumIIProblem } from "./combination-sum-ii/definition";
+import { designOrderedStreamProblem } from "./design-an-ordered-stream/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -443,4 +453,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   fruitIntoBasketsProblem,
   maxConsecutiveOnesIIIProblem,
   searchRotatedIIProblem,
+  implementQueueStacksProblem,
+  numberOfRecentCallsProblem,
+  largestNumberProblem,
+  longestValidParenthesesProblem,
+  removeDuplicatesIIProblem,
+  removeLinkedListElementsProblem,
+  addDigitsProblem,
+  minDaysBouquetsProblem,
+  combinationSumIIProblem,
+  designOrderedStreamProblem,
 ];
