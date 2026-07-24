@@ -130,6 +130,15 @@ import { subarrayProductProblem } from "./subarray-product-less-than-k/definitio
 import { findPivotIndexProblem } from "./find-pivot-index/definition";
 import { guessNumberProblem } from "./guess-number-higher-or-lower/definition";
 import { thirdMaximumProblem } from "./third-maximum-number/definition";
+import { swapNodesInPairsProblem } from "./swap-nodes-in-pairs/definition";
+import { removeDuplicatesListProblem } from "./remove-duplicates-from-sorted-list/definition";
+import { oddEvenLinkedListProblem } from "./odd-even-linked-list/definition";
+import { integerToRomanProblem } from "./integer-to-roman/definition";
+import { addStringsProblem } from "./add-strings/definition";
+import { validSudokuProblem } from "./valid-sudoku/definition";
+import { numberOf1BitsProblem } from "./number-of-1-bits/definition";
+import { powerOfTwoProblem } from "./power-of-two/definition";
+import { setMismatchProblem } from "./set-mismatch/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -273,4 +282,13 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   findPivotIndexProblem,
   guessNumberProblem,
   thirdMaximumProblem,
+  swapNodesInPairsProblem,
+  removeDuplicatesListProblem,
+  oddEvenLinkedListProblem,
+  integerToRomanProblem,
+  addStringsProblem,
+  validSudokuProblem,
+  numberOf1BitsProblem,
+  powerOfTwoProblem,
+  setMismatchProblem,
 ];
