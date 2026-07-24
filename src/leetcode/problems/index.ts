@@ -187,6 +187,16 @@ import { lexicographicalNumbersProblem } from "./lexicographical-numbers/definit
 import { sortByPowerValueProblem } from "./sort-integers-by-the-power-value/definition";
 import { copyListRandomPointerProblem } from "./copy-list-with-random-pointer/definition";
 import { verticalTraversalProblem } from "./vertical-order-traversal-of-a-binary-tree/definition";
+import { evalRPNProblem } from "./evaluate-reverse-polish-notation/definition";
+import { reverseVowelsProblem } from "./reverse-vowels-of-a-string/definition";
+import { maxNestingDepthProblem } from "./maximum-nesting-depth-of-the-parentheses/definition";
+import { rotateStringProblem } from "./rotate-string/definition";
+import { regexMatchingProblem } from "./regular-expression-matching/definition";
+import { wildcardMatchingProblem } from "./wildcard-matching/definition";
+import { lcaBinaryTreeProblem } from "./lowest-common-ancestor-of-a-binary-tree/definition";
+import { evaluateDivisionProblem } from "./evaluate-division/definition";
+import { wordLadderProblem } from "./word-ladder/definition";
+import { reverseNodesKGroupProblem } from "./reverse-nodes-in-k-group/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -387,4 +397,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   sortByPowerValueProblem,
   copyListRandomPointerProblem,
   verticalTraversalProblem,
+  evalRPNProblem,
+  reverseVowelsProblem,
+  maxNestingDepthProblem,
+  rotateStringProblem,
+  regexMatchingProblem,
+  wildcardMatchingProblem,
+  lcaBinaryTreeProblem,
+  evaluateDivisionProblem,
+  wordLadderProblem,
+  reverseNodesKGroupProblem,
 ];
