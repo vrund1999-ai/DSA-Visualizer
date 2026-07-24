@@ -169,6 +169,16 @@ import { candyProblem } from "./candy/definition";
 import { numberOfProvincesProblem } from "./number-of-provinces/definition";
 import { constructTreeProblem } from "./construct-binary-tree-from-preorder-and-inorder-traversal/definition";
 import { invalidTransactionsProblem } from "./invalid-transactions/definition";
+import { editDistanceProblem } from "./edit-distance/definition";
+import { fibonacciProblem } from "./fibonacci-number/definition";
+import { jumpGameIIProblem } from "./jump-game-ii/definition";
+import { hIndexProblem } from "./h-index/definition";
+import { minSizeSubarraySumProblem } from "./minimum-size-subarray-sum/definition";
+import { zigzagLevelOrderProblem } from "./binary-tree-zigzag-level-order-traversal/definition";
+import { verticalOrderProblem } from "./binary-tree-vertical-order-traversal/definition";
+import { populatingNextRightPointersProblem } from "./populating-next-right-pointers-in-each-node/definition";
+import { addTwoNumbersIIProblem } from "./add-two-numbers-ii/definition";
+import { findTheWinnerProblem } from "./find-the-winner-of-the-circular-game/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -351,4 +361,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   numberOfProvincesProblem,
   constructTreeProblem,
   invalidTransactionsProblem,
+  editDistanceProblem,
+  fibonacciProblem,
+  jumpGameIIProblem,
+  hIndexProblem,
+  minSizeSubarraySumProblem,
+  zigzagLevelOrderProblem,
+  verticalOrderProblem,
+  populatingNextRightPointersProblem,
+  addTwoNumbersIIProblem,
+  findTheWinnerProblem,
 ];
