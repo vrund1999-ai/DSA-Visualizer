@@ -206,6 +206,15 @@ import { factorialTrailingZeroesProblem } from "./factorial-trailing-zeroes/defi
 import { findMissingRepeatedProblem } from "./find-missing-and-repeated-values/definition";
 import { topKFrequentWordsProblem } from "./top-k-frequent-words/definition";
 import { populatingNextRightPointersIIProblem } from "./populating-next-right-pointers-in-each-node-ii/definition";
+import { designBrowserHistoryProblem } from "./design-browser-history/definition";
+import { sortAnArrayProblem } from "./sort-an-array/definition";
+import { triangleProblem } from "./triangle/definition";
+import { serializeDeserializeProblem } from "./serialize-and-deserialize-binary-tree/definition";
+import { binaryTreeMaxPathSumProblem } from "./binary-tree-maximum-path-sum/definition";
+import { divideTwoIntegersProblem } from "./divide-two-integers/definition";
+import { fruitIntoBasketsProblem } from "./fruit-into-baskets/definition";
+import { maxConsecutiveOnesIIIProblem } from "./max-consecutive-ones-iii/definition";
+import { searchRotatedIIProblem } from "./search-in-rotated-sorted-array-ii/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -425,4 +434,13 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   findMissingRepeatedProblem,
   topKFrequentWordsProblem,
   populatingNextRightPointersIIProblem,
+  designBrowserHistoryProblem,
+  sortAnArrayProblem,
+  triangleProblem,
+  serializeDeserializeProblem,
+  binaryTreeMaxPathSumProblem,
+  divideTwoIntegersProblem,
+  fruitIntoBasketsProblem,
+  maxConsecutiveOnesIIIProblem,
+  searchRotatedIIProblem,
 ];
