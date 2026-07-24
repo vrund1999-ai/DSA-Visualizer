@@ -139,6 +139,16 @@ import { validSudokuProblem } from "./valid-sudoku/definition";
 import { numberOf1BitsProblem } from "./number-of-1-bits/definition";
 import { powerOfTwoProblem } from "./power-of-two/definition";
 import { setMismatchProblem } from "./set-mismatch/definition";
+import { maxConsecutiveOnesProblem } from "./max-consecutive-ones/definition";
+import { checkSortedRotatedProblem } from "./check-if-array-is-sorted-and-rotated/definition";
+import { bestTimeStockIIProblem } from "./best-time-to-buy-and-sell-stock-ii/definition";
+import { singleElementProblem } from "./single-element-in-a-sorted-array/definition";
+import { fourSumProblem } from "./4sum/definition";
+import { threeSumClosestProblem } from "./3sum-closest/definition";
+import { nextGreaterElementProblem } from "./next-greater-element-i/definition";
+import { minRemoveValidParensProblem } from "./minimum-remove-to-make-valid-parentheses/definition";
+import { insertDeleteGetRandomProblem } from "./insert-delete-getrandom-o1/definition";
+import { lruCacheProblem } from "./lru-cache/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -291,4 +301,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   numberOf1BitsProblem,
   powerOfTwoProblem,
   setMismatchProblem,
+  maxConsecutiveOnesProblem,
+  checkSortedRotatedProblem,
+  bestTimeStockIIProblem,
+  singleElementProblem,
+  fourSumProblem,
+  threeSumClosestProblem,
+  nextGreaterElementProblem,
+  minRemoveValidParensProblem,
+  insertDeleteGetRandomProblem,
+  lruCacheProblem,
 ];

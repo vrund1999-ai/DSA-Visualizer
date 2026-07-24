@@ -21,7 +21,10 @@ describe("leetcode registry", () => {
   it("lets a bespoke problem win over the bulk placeholder of the same slug", () => {
     // Bespoke Two Sum emits many steps; a placeholder emits exactly one.
     expect(stepCount(leetcode.byId("two-sum"))).toBeGreaterThan(1);
-    expect(stepCount(leetcode.byId("lru-cache"))).toBe(1);
+    // Any problem without a bespoke visualizer is a placeholder (single step).
+    const placeholder = leetcode.all().find((p) => !leetcode.hasVisualizer(p.id))!;
+    expect(placeholder).toBeDefined();
+    expect(stepCount(leetcode.byId(placeholder.id))).toBe(1);
   });
 
   it("tags every problem with a difficulty and Bloomberg", () => {
@@ -57,6 +60,7 @@ describe("leetcode registry", () => {
     for (const p of leetcodeProblems) {
       expect(leetcode.hasVisualizer(p.id)).toBe(true);
     }
-    expect(leetcode.hasVisualizer("lru-cache")).toBe(false);
+    const placeholder = leetcode.all().find((p) => !leetcode.hasVisualizer(p.id))!;
+    expect(leetcode.hasVisualizer(placeholder.id)).toBe(false);
   });
 });

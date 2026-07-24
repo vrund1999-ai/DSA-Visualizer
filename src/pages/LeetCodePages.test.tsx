@@ -3,6 +3,12 @@ import { render, screen, fireEvent, within } from "@testing-library/react";
 import { MemoryRouter, Routes, Route } from "react-router-dom";
 import { LeetCodeCatalogPage } from "./LeetCodeCatalogPage";
 import { LeetCodeProblemPage } from "./LeetCodeProblemPage";
+import { leetcode } from "@/leetcode/registry";
+
+// Highest-frequency problem that still uses the placeholder (no bespoke visual).
+// Derived from the registry so it stays valid as more visualizers are built;
+// being highest-frequency, it always lands on the catalog's first page.
+const placeholderProblem = leetcode.all().find((p) => !leetcode.hasVisualizer(p.id))!;
 
 function renderAt(path: string) {
   return render(
@@ -34,7 +40,7 @@ describe("LeetCode section", () => {
     const main = () => screen.getByRole("heading", { name: "LeetCode" }).closest("main")!;
 
     // A high-frequency placeholder-only problem is visible before filtering.
-    expect(within(main()).getByText(/Insert Delete GetRandom/)).toBeInTheDocument();
+    expect(within(main()).getByText(new RegExp(placeholderProblem.title.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")))).toBeInTheDocument();
 
     fireEvent.change(screen.getByLabelText("Filter by visualizer availability"), {
       target: { value: "visualized" },
@@ -43,7 +49,7 @@ describe("LeetCode section", () => {
     // Two Sum (built) survives with its "Visualizer" badge; the placeholder is gone.
     expect(within(main()).getByText("1. Two Sum")).toBeInTheDocument();
     expect(within(main()).getAllByText("Visualizer").length).toBeGreaterThan(0);
-    expect(within(main()).queryByText(/Insert Delete GetRandom/)).toBeNull();
+    expect(within(main()).queryByText(new RegExp(placeholderProblem.title.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")))).toBeNull();
   });
 
   it("renders the Two Sum detail page with header + its real visual", () => {
@@ -67,7 +73,7 @@ describe("LeetCode section", () => {
   });
 
   it("renders the enhanced placeholder for a bulk-imported problem", () => {
-    renderAt("/leetcode/lru-cache");
+    renderAt(`/leetcode/${placeholderProblem.id}`);
     expect(screen.getByText("Interactive visual coming soon")).toBeInTheDocument();
     expect(screen.getByRole("link", { name: /Solve on LeetCode/ })).toBeInTheDocument();
   });
