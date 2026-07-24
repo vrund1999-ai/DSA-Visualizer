@@ -235,6 +235,16 @@ import { sortCharsByFrequencyProblem } from "./sort-characters-by-frequency/defi
 import { surroundedRegionsProblem } from "./surrounded-regions/definition";
 import { asteroidCollisionProblem } from "./asteroid-collision/definition";
 import { arrangingCoinsProblem } from "./arranging-coins/definition";
+import { houseRobberIIProblem } from "./house-robber-ii/definition";
+import { removeKDigitsProblem } from "./remove-k-digits/definition";
+import { firstMissingPositiveProblem } from "./first-missing-positive/definition";
+import { diagonalTraverseProblem } from "./diagonal-traverse/definition";
+import { permutationInStringProblem } from "./permutation-in-string/definition";
+import { flattenBinaryTreeProblem } from "./flatten-binary-tree-to-linked-list/definition";
+import { sortArrayByFrequencyProblem } from "./sort-array-by-increasing-frequency/definition";
+import { removeDuplicatesListIIProblem } from "./remove-duplicates-from-sorted-list-ii/definition";
+import { rearrangeArrayBySignProblem } from "./rearrange-array-elements-by-sign/definition";
+import { binarySubarraysWithSumProblem } from "./binary-subarrays-with-sum/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -483,4 +493,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   surroundedRegionsProblem,
   asteroidCollisionProblem,
   arrangingCoinsProblem,
+  houseRobberIIProblem,
+  removeKDigitsProblem,
+  firstMissingPositiveProblem,
+  diagonalTraverseProblem,
+  permutationInStringProblem,
+  flattenBinaryTreeProblem,
+  sortArrayByFrequencyProblem,
+  removeDuplicatesListIIProblem,
+  rearrangeArrayBySignProblem,
+  binarySubarraysWithSumProblem,
 ];
