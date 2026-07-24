@@ -245,6 +245,15 @@ import { sortArrayByFrequencyProblem } from "./sort-array-by-increasing-frequenc
 import { removeDuplicatesListIIProblem } from "./remove-duplicates-from-sorted-list-ii/definition";
 import { rearrangeArrayBySignProblem } from "./rearrange-array-elements-by-sign/definition";
 import { binarySubarraysWithSumProblem } from "./binary-subarrays-with-sum/definition";
+import { courseScheduleIIProblem } from "./course-schedule-ii/definition";
+import { sortListProblem } from "./sort-list/definition";
+import { contiguousArrayProblem } from "./contiguous-array/definition";
+import { kthMissingPositiveProblem } from "./kth-missing-positive-number/definition";
+import { linkedListCycleIIProblem } from "./linked-list-cycle-ii/definition";
+import { nonOverlappingIntervalsProblem } from "./non-overlapping-intervals/definition";
+import { pathSumIIProblem } from "./path-sum-ii/definition";
+import { perfectSquaresProblem } from "./perfect-squares/definition";
+import { shortestPathBinaryMatrixProblem } from "./shortest-path-in-binary-matrix/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -503,4 +512,13 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   removeDuplicatesListIIProblem,
   rearrangeArrayBySignProblem,
   binarySubarraysWithSumProblem,
+  courseScheduleIIProblem,
+  sortListProblem,
+  contiguousArrayProblem,
+  kthMissingPositiveProblem,
+  linkedListCycleIIProblem,
+  nonOverlappingIntervalsProblem,
+  pathSumIIProblem,
+  perfectSquaresProblem,
+  shortestPathBinaryMatrixProblem,
 ];
