@@ -290,6 +290,15 @@ import { findTheDifferenceProblem } from "./find-the-difference/definition";
 import { countGoodNumbersProblem } from "./count-good-numbers/definition";
 import { buildArrayPermutationProblem } from "./build-array-from-permutation/definition";
 import { rangeCoveredProblem } from "./check-if-all-the-integers-in-a-range-are-covered/definition";
+import { longestCommonSubsequenceProblem } from "./longest-common-subsequence/definition";
+import { lemonadeChangeProblem } from "./lemonade-change/definition";
+import { maximumWidthBinaryTreeProblem } from "./maximum-width-of-binary-tree/definition";
+import { palindromePermutationProblem } from "./palindrome-permutation/definition";
+import { partitionListProblem } from "./partition-list/definition";
+import { permutationsIIProblem } from "./permutations-ii/definition";
+import { interleavingStringProblem } from "./interleaving-string/definition";
+import { shortestPalindromeProblem } from "./shortest-palindrome/definition";
+import { killProcessProblem } from "./kill-process/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -593,4 +602,13 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   countGoodNumbersProblem,
   buildArrayPermutationProblem,
   rangeCoveredProblem,
+  longestCommonSubsequenceProblem,
+  lemonadeChangeProblem,
+  maximumWidthBinaryTreeProblem,
+  palindromePermutationProblem,
+  partitionListProblem,
+  permutationsIIProblem,
+  interleavingStringProblem,
+  shortestPalindromeProblem,
+  killProcessProblem,
 ];
