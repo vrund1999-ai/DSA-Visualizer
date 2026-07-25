@@ -408,6 +408,16 @@ import { nQueensIIProblem } from "./n-queens-ii/definition";
 import { findKthSmallestPairDistanceProblem } from "./find-k-th-smallest-pair-distance/definition";
 import { busRoutesProblem } from "./bus-routes/definition";
 import { insertDeleteGetRandomDupProblem } from "./insert-delete-getrandom-o1-duplicates-allowed/definition";
+import { reverseBitsProblem } from "./reverse-bits/definition";
+import { scoreOfStringProblem } from "./score-of-a-string/definition";
+import { repeatedSubstringPatternProblem } from "./repeated-substring-pattern/definition";
+import { sumRootToLeafProblem } from "./sum-of-root-to-leaf-binary-numbers/definition";
+import { rankTransformProblem } from "./rank-transform-of-an-array/definition";
+import { removeAllOccurrencesProblem } from "./remove-all-occurrences-of-a-substring/definition";
+import { numberOfSubsequencesProblem } from "./number-of-subsequences-that-satisfy-the-given-sum-condition/definition";
+import { timeBasedKeyValueStoreProblem } from "./time-based-key-value-store/definition";
+import { reconstructItineraryProblem } from "./reconstruct-itinerary/definition";
+import { rabbitsInForestProblem } from "./rabbits-in-forest/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -829,4 +839,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   findKthSmallestPairDistanceProblem,
   busRoutesProblem,
   insertDeleteGetRandomDupProblem,
+  reverseBitsProblem,
+  scoreOfStringProblem,
+  repeatedSubstringPatternProblem,
+  sumRootToLeafProblem,
+  rankTransformProblem,
+  removeAllOccurrencesProblem,
+  numberOfSubsequencesProblem,
+  timeBasedKeyValueStoreProblem,
+  reconstructItineraryProblem,
+  rabbitsInForestProblem,
 ];
