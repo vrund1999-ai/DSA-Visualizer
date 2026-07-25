@@ -48,7 +48,7 @@ describe("usePlayer", () => {
   });
 
   it("advances frames while playing", async () => {
-    const { result } = renderHook(() => usePlayer(10, 10)); // 10 fps → 100ms/tick
+    const { result } = renderHook(() => usePlayer(10, 2)); // 2x = 10 fps → 100ms/tick
     act(() => result.current[1].play());
     // Advance one tick at a time so React can flush the effect that reschedules
     // the next timeout between ticks (a real browser does this naturally).
@@ -62,7 +62,7 @@ describe("usePlayer", () => {
   });
 
   it("stops playing at the last frame", async () => {
-    const { result } = renderHook(() => usePlayer(3, 10));
+    const { result } = renderHook(() => usePlayer(3, 2));
     act(() => result.current[1].play());
     for (let i = 0; i < 5; i++) {
       await act(async () => {

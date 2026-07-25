@@ -272,6 +272,15 @@ import { findInMountainArrayProblem } from "./find-in-mountain-array/definition"
 import { dotProductSparseProblem } from "./dot-product-of-two-sparse-vectors/definition";
 import { maximalRectangleProblem } from "./maximal-rectangle/definition";
 import { accountsMergeProblem } from "./accounts-merge/definition";
+import { reverseLinkedListIIProblem } from "./reverse-linked-list-ii/definition";
+import { boatsToSavePeopleProblem } from "./boats-to-save-people/definition";
+import { basicCalculatorIIProblem } from "./basic-calculator-ii/definition";
+import { removeOutermostParenthesesProblem } from "./remove-outermost-parentheses/definition";
+import { reverseStringIIProblem } from "./reverse-string-ii/definition";
+import { shortestPathToFoodProblem } from "./shortest-path-to-get-food/definition";
+import { designHitCounterProblem } from "./design-hit-counter/definition";
+import { reorderedPowerOf2Problem } from "./reordered-power-of-2/definition";
+import { wordBreakIIProblem } from "./word-break-ii/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -557,4 +566,13 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   dotProductSparseProblem,
   maximalRectangleProblem,
   accountsMergeProblem,
+  reverseLinkedListIIProblem,
+  boatsToSavePeopleProblem,
+  basicCalculatorIIProblem,
+  removeOutermostParenthesesProblem,
+  reverseStringIIProblem,
+  shortestPathToFoodProblem,
+  designHitCounterProblem,
+  reorderedPowerOf2Problem,
+  wordBreakIIProblem,
 ];

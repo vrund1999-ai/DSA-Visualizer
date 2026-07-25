@@ -1,5 +1,5 @@
 import { Gauge } from "lucide-react";
-import { Slider } from "@/components/ui/slider";
+import { SPEED_OPTIONS } from "@/core/usePlayer";
 
 export function SpeedControl({
   speed,
@@ -11,18 +11,18 @@ export function SpeedControl({
   return (
     <div className="flex items-center gap-2">
       <Gauge className="size-4 text-muted-foreground" />
-      <Slider
-        aria-label="Speed"
-        className="w-24"
-        min={0.5}
-        max={30}
-        step={0.5}
-        value={[speed]}
-        onValueChange={([v]) => onChange(v)}
-      />
-      <span className="w-10 text-xs tabular-nums text-muted-foreground">
-        {speed}x
-      </span>
+      <select
+        aria-label="Playback speed"
+        className="h-9 rounded-md border border-input bg-background px-2 text-xs tabular-nums text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+        value={speed}
+        onChange={(e) => onChange(Number(e.target.value))}
+      >
+        {SPEED_OPTIONS.map((s) => (
+          <option key={s} value={s}>
+            {s}x
+          </option>
+        ))}
+      </select>
     </div>
   );
 }
