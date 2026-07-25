@@ -339,6 +339,15 @@ import { studentsUnableToEatProblem } from "./number-of-students-unable-to-eat-l
 import { reorganizeStringProblem } from "./reorganize-string/definition";
 import { heatersProblem } from "./heaters/definition";
 import { longestMonotonicSubarrayProblem } from "./longest-strictly-increasing-or-strictly-decreasing-subarray/definition";
+import { zeroOneMatrixProblem } from "./01-matrix/definition";
+import { cloneGraphProblem } from "./clone-graph/definition";
+import { shuffleArrayProblem } from "./shuffle-the-array/definition";
+import { sumOfSquareNumbersProblem } from "./sum-of-square-numbers/definition";
+import { uglyNumberProblem } from "./ugly-number/definition";
+import { findNumbersEvenDigitsProblem } from "./find-numbers-with-even-number-of-digits/definition";
+import { pangramProblem } from "./check-if-the-sentence-is-pangram/definition";
+import { countSmallerAfterSelfProblem } from "./count-of-smaller-numbers-after-self/definition";
+import { substringConcatWordsProblem } from "./substring-with-concatenation-of-all-words/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -691,4 +700,13 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   reorganizeStringProblem,
   heatersProblem,
   longestMonotonicSubarrayProblem,
+  zeroOneMatrixProblem,
+  cloneGraphProblem,
+  shuffleArrayProblem,
+  sumOfSquareNumbersProblem,
+  uglyNumberProblem,
+  findNumbersEvenDigitsProblem,
+  pangramProblem,
+  countSmallerAfterSelfProblem,
+  substringConcatWordsProblem,
 ];
