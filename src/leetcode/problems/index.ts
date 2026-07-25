@@ -428,6 +428,16 @@ import { uniqueLength3PalindromesProblem } from "./unique-length-3-palindromic-s
 import { allNodesDistanceKProblem } from "./all-nodes-distance-k-in-binary-tree/definition";
 import { designUndergroundSystemProblem } from "./design-underground-system/definition";
 import { maximumAcceptedInvitationsProblem } from "./maximum-number-of-accepted-invitations/definition";
+import { binaryTreePostorderTraversalProblem } from "./binary-tree-postorder-traversal/definition";
+import { consecutiveCharactersProblem } from "./consecutive-characters/definition";
+import { convertToHexProblem } from "./convert-a-number-to-hexadecimal/definition";
+import { countCompleteTreeNodesProblem } from "./count-complete-tree-nodes/definition";
+import { countNegativesProblem } from "./count-negative-numbers-in-a-sorted-matrix/definition";
+import { bestTimeCooldownProblem } from "./best-time-to-buy-and-sell-stock-with-cooldown/definition";
+import { carFleetProblem } from "./car-fleet/definition";
+import { carPoolingProblem } from "./car-pooling/definition";
+import { countNiceSubarraysProblem } from "./count-number-of-nice-subarrays/definition";
+import { bitwiseOrsOfSubarraysProblem } from "./bitwise-ors-of-subarrays/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -869,4 +879,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   allNodesDistanceKProblem,
   designUndergroundSystemProblem,
   maximumAcceptedInvitationsProblem,
+  binaryTreePostorderTraversalProblem,
+  consecutiveCharactersProblem,
+  convertToHexProblem,
+  countCompleteTreeNodesProblem,
+  countNegativesProblem,
+  bestTimeCooldownProblem,
+  carFleetProblem,
+  carPoolingProblem,
+  countNiceSubarraysProblem,
+  bitwiseOrsOfSubarraysProblem,
 ];
