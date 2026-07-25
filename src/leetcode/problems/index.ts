@@ -378,6 +378,16 @@ import { reversePairsProblem } from "./reverse-pairs/definition";
 import { sudokuSolverProblem } from "./sudoku-solver/definition";
 import { countUnhappyFriendsProblem } from "./count-unhappy-friends/definition";
 import { makingALargeIslandProblem } from "./making-a-large-island/definition";
+import { clearDigitsProblem } from "./clear-digits/definition";
+import { checkIfNAndDoubleExistProblem } from "./check-if-n-and-its-double-exist/definition";
+import { countBinarySubstringsProblem } from "./count-binary-substrings/definition";
+import { coinChangeIIProblem } from "./coin-change-ii/definition";
+import { decodeWaysProblem } from "./decode-ways/definition";
+import { recoverBinarySearchTreeProblem } from "./recover-binary-search-tree/definition";
+import { binarySearchTreeIteratorProblem } from "./binary-search-tree-iterator/definition";
+import { cheapestFlightsWithinKStopsProblem } from "./cheapest-flights-within-k-stops/definition";
+import { implementMagicDictionaryProblem } from "./implement-magic-dictionary/definition";
+import { candyCrushProblem } from "./candy-crush/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -769,4 +779,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   sudokuSolverProblem,
   countUnhappyFriendsProblem,
   makingALargeIslandProblem,
+  clearDigitsProblem,
+  checkIfNAndDoubleExistProblem,
+  countBinarySubstringsProblem,
+  coinChangeIIProblem,
+  decodeWaysProblem,
+  recoverBinarySearchTreeProblem,
+  binarySearchTreeIteratorProblem,
+  cheapestFlightsWithinKStopsProblem,
+  implementMagicDictionaryProblem,
+  candyCrushProblem,
 ];
