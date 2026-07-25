@@ -418,6 +418,16 @@ import { numberOfSubsequencesProblem } from "./number-of-subsequences-that-satis
 import { timeBasedKeyValueStoreProblem } from "./time-based-key-value-store/definition";
 import { reconstructItineraryProblem } from "./reconstruct-itinerary/definition";
 import { rabbitsInForestProblem } from "./rabbits-in-forest/definition";
+import { baseballGameProblem } from "./baseball-game/definition";
+import { validPerfectSquareProblem } from "./valid-perfect-square/definition";
+import { validPalindromeIIProblem } from "./valid-palindrome-ii/definition";
+import { twoSumIVProblem } from "./two-sum-iv-input-is-a-bst/definition";
+import { validWordProblem } from "./valid-word/definition";
+import { uglyNumberIIProblem } from "./ugly-number-ii/definition";
+import { uniqueLength3PalindromesProblem } from "./unique-length-3-palindromic-subsequences/definition";
+import { allNodesDistanceKProblem } from "./all-nodes-distance-k-in-binary-tree/definition";
+import { designUndergroundSystemProblem } from "./design-underground-system/definition";
+import { maximumAcceptedInvitationsProblem } from "./maximum-number-of-accepted-invitations/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -849,4 +859,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   timeBasedKeyValueStoreProblem,
   reconstructItineraryProblem,
   rabbitsInForestProblem,
+  baseballGameProblem,
+  validPerfectSquareProblem,
+  validPalindromeIIProblem,
+  twoSumIVProblem,
+  validWordProblem,
+  uglyNumberIIProblem,
+  uniqueLength3PalindromesProblem,
+  allNodesDistanceKProblem,
+  designUndergroundSystemProblem,
+  maximumAcceptedInvitationsProblem,
 ];
