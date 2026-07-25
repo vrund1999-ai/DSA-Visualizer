@@ -319,6 +319,16 @@ import { findEventualSafeStatesProblem } from "./find-eventual-safe-states/defin
 import { gcdOfStringsProblem } from "./greatest-common-divisor-of-strings/definition";
 import { circularDistanceProblem } from "./shortest-distance-to-target-string-in-a-circular-array/definition";
 import { differentWaysToAddParenthesesProblem } from "./different-ways-to-add-parentheses/definition";
+import { runningSumProblem } from "./running-sum-of-1d-array/definition";
+import { sortArrayByParityProblem } from "./sort-array-by-parity/definition";
+import { sumOfTwoIntegersProblem } from "./sum-of-two-integers/definition";
+import { removeDuplicateLettersProblem } from "./remove-duplicate-letters/definition";
+import { canPlaceFlowersProblem } from "./can-place-flowers/definition";
+import { permutationSequenceProblem } from "./permutation-sequence/definition";
+import { subarraysKDistinctProblem } from "./subarrays-with-k-different-integers/definition";
+import { complementBase10Problem } from "./complement-of-base-10-integer/definition";
+import { partitionArrayPivotProblem } from "./partition-array-according-to-given-pivot/definition";
+import { truncateSentenceProblem } from "./truncate-sentence/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -651,4 +661,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   gcdOfStringsProblem,
   circularDistanceProblem,
   differentWaysToAddParenthesesProblem,
+  runningSumProblem,
+  sortArrayByParityProblem,
+  sumOfTwoIntegersProblem,
+  removeDuplicateLettersProblem,
+  canPlaceFlowersProblem,
+  permutationSequenceProblem,
+  subarraysKDistinctProblem,
+  complementBase10Problem,
+  partitionArrayPivotProblem,
+  truncateSentenceProblem,
 ];
