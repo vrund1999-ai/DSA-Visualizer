@@ -348,6 +348,16 @@ import { findNumbersEvenDigitsProblem } from "./find-numbers-with-even-number-of
 import { pangramProblem } from "./check-if-the-sentence-is-pangram/definition";
 import { countSmallerAfterSelfProblem } from "./count-of-smaller-numbers-after-self/definition";
 import { substringConcatWordsProblem } from "./substring-with-concatenation-of-all-words/definition";
+import { maxAreaOfIslandProblem } from "./max-area-of-island/definition";
+import { findAllDuplicatesProblem } from "./find-all-duplicates-in-an-array/definition";
+import { findKClosestElementsProblem } from "./find-k-closest-elements/definition";
+import { minimumAddToMakeParenthesesValidProblem } from "./minimum-add-to-make-parentheses-valid/definition";
+import { excelSheetColumnTitleProblem } from "./excel-sheet-column-title/definition";
+import { perfectNumberProblem } from "./perfect-number/definition";
+import { largestOddNumberInStringProblem } from "./largest-odd-number-in-string/definition";
+import { maxSumEqualDigitSumProblem } from "./max-sum-of-a-pair-with-equal-sum-of-digits/definition";
+import { eliminationGameProblem } from "./elimination-game/definition";
+import { letterTilePossibilitiesProblem } from "./letter-tile-possibilities/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -709,4 +719,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   pangramProblem,
   countSmallerAfterSelfProblem,
   substringConcatWordsProblem,
+  maxAreaOfIslandProblem,
+  findAllDuplicatesProblem,
+  findKClosestElementsProblem,
+  minimumAddToMakeParenthesesValidProblem,
+  excelSheetColumnTitleProblem,
+  perfectNumberProblem,
+  largestOddNumberInStringProblem,
+  maxSumEqualDigitSumProblem,
+  eliminationGameProblem,
+  letterTilePossibilitiesProblem,
 ];
