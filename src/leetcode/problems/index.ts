@@ -438,6 +438,16 @@ import { carFleetProblem } from "./car-fleet/definition";
 import { carPoolingProblem } from "./car-pooling/definition";
 import { countNiceSubarraysProblem } from "./count-number-of-nice-subarrays/definition";
 import { bitwiseOrsOfSubarraysProblem } from "./bitwise-ors-of-subarrays/definition";
+import { countingBitsProblem } from "./counting-bits/definition";
+import { detectCapitalProblem } from "./detect-capital/definition";
+import { countSymmetricIntegersProblem } from "./count-symmetric-integers/definition";
+import { countFairPairsProblem } from "./count-the-number-of-fair-pairs/definition";
+import { countHiddenSequencesProblem } from "./count-the-hidden-sequences/definition";
+import { deleteNodesFromLinkedListProblem } from "./delete-nodes-from-linked-list-present-in-array/definition";
+import { countSubmatricesAllOnesProblem } from "./count-submatrices-with-all-ones/definition";
+import { designAddSearchWordsProblem } from "./design-add-and-search-words-data-structure/definition";
+import { allocateMailboxesProblem } from "./allocate-mailboxes/definition";
+import { countArraysKMatchingProblem } from "./count-the-number-of-arrays-with-k-matching-adjacent-elements/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -889,4 +899,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   carPoolingProblem,
   countNiceSubarraysProblem,
   bitwiseOrsOfSubarraysProblem,
+  countingBitsProblem,
+  detectCapitalProblem,
+  countSymmetricIntegersProblem,
+  countFairPairsProblem,
+  countHiddenSequencesProblem,
+  deleteNodesFromLinkedListProblem,
+  countSubmatricesAllOnesProblem,
+  designAddSearchWordsProblem,
+  allocateMailboxesProblem,
+  countArraysKMatchingProblem,
 ];
