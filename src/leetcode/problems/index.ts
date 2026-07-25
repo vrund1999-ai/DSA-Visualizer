@@ -254,6 +254,15 @@ import { nonOverlappingIntervalsProblem } from "./non-overlapping-intervals/defi
 import { pathSumIIProblem } from "./path-sum-ii/definition";
 import { perfectSquaresProblem } from "./perfect-squares/definition";
 import { shortestPathBinaryMatrixProblem } from "./shortest-path-in-binary-matrix/definition";
+import { stockWithFeeProblem } from "./best-time-to-buy-and-sell-stock-with-transaction-fee/definition";
+import { sumOfSubarrayMinimumsProblem } from "./sum-of-subarray-minimums/definition";
+import { increasingTripletProblem } from "./increasing-triplet-subsequence/definition";
+import { simplifyPathProblem } from "./simplify-path/definition";
+import { subarraySumsDivByKProblem } from "./subarray-sums-divisible-by-k/definition";
+import { findMedianDataStreamProblem } from "./find-median-from-data-stream/definition";
+import { cousinsInBinaryTreeProblem } from "./cousins-in-binary-tree/definition";
+import { trimBinarySearchTreeProblem } from "./trim-a-binary-search-tree/definition";
+import { maxSumDistinctKProblem } from "./maximum-sum-of-distinct-subarrays-with-length-k/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -521,4 +530,13 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   pathSumIIProblem,
   perfectSquaresProblem,
   shortestPathBinaryMatrixProblem,
+  stockWithFeeProblem,
+  sumOfSubarrayMinimumsProblem,
+  increasingTripletProblem,
+  simplifyPathProblem,
+  subarraySumsDivByKProblem,
+  findMedianDataStreamProblem,
+  cousinsInBinaryTreeProblem,
+  trimBinarySearchTreeProblem,
+  maxSumDistinctKProblem,
 ];
