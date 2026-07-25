@@ -263,6 +263,15 @@ import { findMedianDataStreamProblem } from "./find-median-from-data-stream/defi
 import { cousinsInBinaryTreeProblem } from "./cousins-in-binary-tree/definition";
 import { trimBinarySearchTreeProblem } from "./trim-a-binary-search-tree/definition";
 import { maxSumDistinctKProblem } from "./maximum-sum-of-distinct-subarrays-with-length-k/definition";
+import { evenOddTreeProblem } from "./even-odd-tree/definition";
+import { minimumDepthProblem } from "./minimum-depth-of-binary-tree/definition";
+import { assignCookiesProblem } from "./assign-cookies/definition";
+import { countAndSayProblem } from "./count-and-say/definition";
+import { maximumSwapProblem } from "./maximum-swap/definition";
+import { findInMountainArrayProblem } from "./find-in-mountain-array/definition";
+import { dotProductSparseProblem } from "./dot-product-of-two-sparse-vectors/definition";
+import { maximalRectangleProblem } from "./maximal-rectangle/definition";
+import { accountsMergeProblem } from "./accounts-merge/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -539,4 +548,13 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   cousinsInBinaryTreeProblem,
   trimBinarySearchTreeProblem,
   maxSumDistinctKProblem,
+  evenOddTreeProblem,
+  minimumDepthProblem,
+  assignCookiesProblem,
+  countAndSayProblem,
+  maximumSwapProblem,
+  findInMountainArrayProblem,
+  dotProductSparseProblem,
+  maximalRectangleProblem,
+  accountsMergeProblem,
 ];
