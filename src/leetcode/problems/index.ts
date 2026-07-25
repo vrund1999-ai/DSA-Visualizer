@@ -398,6 +398,16 @@ import { punishmentNumberProblem } from "./find-the-punishment-number-of-an-inte
 import { distinctSubsequencesProblem } from "./distinct-subsequences/definition";
 import { couplesHoldingHandsProblem } from "./couples-holding-hands/definition";
 import { criticalConnectionsProblem } from "./critical-connections-in-a-network/definition";
+import { maximumProductOfThreeNumbersProblem } from "./maximum-product-of-three-numbers/definition";
+import { checkEqualOccurrencesProblem } from "./check-if-all-characters-have-equal-number-of-occurrences/definition";
+import { mostStonesRemovedProblem } from "./most-stones-removed-with-same-row-or-column/definition";
+import { minimumLimitOfBallsProblem } from "./minimum-limit-of-balls-in-a-bag/definition";
+import { maximumEventsAttendedProblem } from "./maximum-number-of-events-that-can-be-attended/definition";
+import { nextBalancedNumberProblem } from "./next-greater-numerically-balanced-number/definition";
+import { nQueensIIProblem } from "./n-queens-ii/definition";
+import { findKthSmallestPairDistanceProblem } from "./find-k-th-smallest-pair-distance/definition";
+import { busRoutesProblem } from "./bus-routes/definition";
+import { insertDeleteGetRandomDupProblem } from "./insert-delete-getrandom-o1-duplicates-allowed/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -809,4 +819,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   distinctSubsequencesProblem,
   couplesHoldingHandsProblem,
   criticalConnectionsProblem,
+  maximumProductOfThreeNumbersProblem,
+  checkEqualOccurrencesProblem,
+  mostStonesRemovedProblem,
+  minimumLimitOfBallsProblem,
+  maximumEventsAttendedProblem,
+  nextBalancedNumberProblem,
+  nQueensIIProblem,
+  findKthSmallestPairDistanceProblem,
+  busRoutesProblem,
+  insertDeleteGetRandomDupProblem,
 ];
