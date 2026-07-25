@@ -299,6 +299,16 @@ import { permutationsIIProblem } from "./permutations-ii/definition";
 import { interleavingStringProblem } from "./interleaving-string/definition";
 import { shortestPalindromeProblem } from "./shortest-palindrome/definition";
 import { killProcessProblem } from "./kill-process/definition";
+import { redundantConnectionProblem } from "./redundant-connection/definition";
+import { validParenthesisStringProblem } from "./valid-parenthesis-string/definition";
+import { pattern132Problem } from "./132-pattern/definition";
+import { repeatedDnaSequencesProblem } from "./repeated-dna-sequences/definition";
+import { uniqueOccurrencesProblem } from "./unique-number-of-occurrences/definition";
+import { powerOfThreeProblem } from "./power-of-three/definition";
+import { sparseMatrixMultiplicationProblem } from "./sparse-matrix-multiplication/definition";
+import { concatenationOfArrayProblem } from "./concatenation-of-array/definition";
+import { maximumProfitJobSchedulingProblem } from "./maximum-profit-in-job-scheduling/definition";
+import { pathInZigzagTreeProblem } from "./path-in-zigzag-labelled-binary-tree/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -611,4 +621,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   interleavingStringProblem,
   shortestPalindromeProblem,
   killProcessProblem,
+  redundantConnectionProblem,
+  validParenthesisStringProblem,
+  pattern132Problem,
+  repeatedDnaSequencesProblem,
+  uniqueOccurrencesProblem,
+  powerOfThreeProblem,
+  sparseMatrixMultiplicationProblem,
+  concatenationOfArrayProblem,
+  maximumProfitJobSchedulingProblem,
+  pathInZigzagTreeProblem,
 ];
