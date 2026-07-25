@@ -388,6 +388,16 @@ import { binarySearchTreeIteratorProblem } from "./binary-search-tree-iterator/d
 import { cheapestFlightsWithinKStopsProblem } from "./cheapest-flights-within-k-stops/definition";
 import { implementMagicDictionaryProblem } from "./implement-magic-dictionary/definition";
 import { candyCrushProblem } from "./candy-crush/definition";
+import { defangingAnIpAddressProblem } from "./defanging-an-ip-address/definition";
+import { findClosestNumberToZeroProblem } from "./find-closest-number-to-zero/definition";
+import { kidsWithGreatestCandiesProblem } from "./kids-with-the-greatest-number-of-candies/definition";
+import { defuseTheBombProblem } from "./defuse-the-bomb/definition";
+import { findWinnerTicTacToeProblem } from "./find-winner-on-a-tic-tac-toe-game/definition";
+import { houseRobberIVProblem } from "./house-robber-iv/definition";
+import { punishmentNumberProblem } from "./find-the-punishment-number-of-an-integer/definition";
+import { distinctSubsequencesProblem } from "./distinct-subsequences/definition";
+import { couplesHoldingHandsProblem } from "./couples-holding-hands/definition";
+import { criticalConnectionsProblem } from "./critical-connections-in-a-network/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -789,4 +799,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   cheapestFlightsWithinKStopsProblem,
   implementMagicDictionaryProblem,
   candyCrushProblem,
+  defangingAnIpAddressProblem,
+  findClosestNumberToZeroProblem,
+  kidsWithGreatestCandiesProblem,
+  defuseTheBombProblem,
+  findWinnerTicTacToeProblem,
+  houseRobberIVProblem,
+  punishmentNumberProblem,
+  distinctSubsequencesProblem,
+  couplesHoldingHandsProblem,
+  criticalConnectionsProblem,
 ];
