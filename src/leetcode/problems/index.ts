@@ -368,6 +368,16 @@ import { findingThreeDigitEvenNumbersProblem } from "./finding-3-digit-even-numb
 import { numberOfDigitOneProblem } from "./number-of-digit-one/definition";
 import { removeLetterToEqualizeFrequencyProblem } from "./remove-letter-to-equalize-frequency/definition";
 import { textJustificationProblem } from "./text-justification/definition";
+import { arrayPartitionProblem } from "./array-partition/definition";
+import { canMakeArithmeticProgressionProblem } from "./can-make-arithmetic-progression-from-sequence/definition";
+import { bestSightseeingPairProblem } from "./best-sightseeing-pair/definition";
+import { angleBetweenClockHandsProblem } from "./angle-between-hands-of-a-clock/definition";
+import { binaryTreePreorderTraversalProblem } from "./binary-tree-preorder-traversal/definition";
+import { bestTimeToBuyStockIIIProblem } from "./best-time-to-buy-and-sell-stock-iii/definition";
+import { reversePairsProblem } from "./reverse-pairs/definition";
+import { sudokuSolverProblem } from "./sudoku-solver/definition";
+import { countUnhappyFriendsProblem } from "./count-unhappy-friends/definition";
+import { makingALargeIslandProblem } from "./making-a-large-island/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -749,4 +759,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   numberOfDigitOneProblem,
   removeLetterToEqualizeFrequencyProblem,
   textJustificationProblem,
+  arrayPartitionProblem,
+  canMakeArithmeticProgressionProblem,
+  bestSightseeingPairProblem,
+  angleBetweenClockHandsProblem,
+  binaryTreePreorderTraversalProblem,
+  bestTimeToBuyStockIIIProblem,
+  reversePairsProblem,
+  sudokuSolverProblem,
+  countUnhappyFriendsProblem,
+  makingALargeIslandProblem,
 ];
