@@ -309,6 +309,16 @@ import { sparseMatrixMultiplicationProblem } from "./sparse-matrix-multiplicatio
 import { concatenationOfArrayProblem } from "./concatenation-of-array/definition";
 import { maximumProfitJobSchedulingProblem } from "./maximum-profit-in-job-scheduling/definition";
 import { pathInZigzagTreeProblem } from "./path-in-zigzag-labelled-binary-tree/definition";
+import { findPathExistsProblem } from "./find-if-path-exists-in-graph/definition";
+import { jewelsAndStonesProblem } from "./jewels-and-stones/definition";
+import { smallerThanCurrentProblem } from "./how-many-numbers-are-smaller-than-the-current-number/definition";
+import { multiplyStringsProblem } from "./multiply-strings/definition";
+import { continuousSubarraySumProblem } from "./continuous-subarray-sum/definition";
+import { numberOfSubstringsThreeCharsProblem } from "./number-of-substrings-containing-all-three-characters/definition";
+import { findEventualSafeStatesProblem } from "./find-eventual-safe-states/definition";
+import { gcdOfStringsProblem } from "./greatest-common-divisor-of-strings/definition";
+import { circularDistanceProblem } from "./shortest-distance-to-target-string-in-a-circular-array/definition";
+import { differentWaysToAddParenthesesProblem } from "./different-ways-to-add-parentheses/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -631,4 +641,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   concatenationOfArrayProblem,
   maximumProfitJobSchedulingProblem,
   pathInZigzagTreeProblem,
+  findPathExistsProblem,
+  jewelsAndStonesProblem,
+  smallerThanCurrentProblem,
+  multiplyStringsProblem,
+  continuousSubarraySumProblem,
+  numberOfSubstringsThreeCharsProblem,
+  findEventualSafeStatesProblem,
+  gcdOfStringsProblem,
+  circularDistanceProblem,
+  differentWaysToAddParenthesesProblem,
 ];
