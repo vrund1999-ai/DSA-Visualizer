@@ -281,6 +281,15 @@ import { shortestPathToFoodProblem } from "./shortest-path-to-get-food/definitio
 import { designHitCounterProblem } from "./design-hit-counter/definition";
 import { reorderedPowerOf2Problem } from "./reordered-power-of-2/definition";
 import { wordBreakIIProblem } from "./word-break-ii/definition";
+import { targetSumProblem } from "./target-sum/definition";
+import { basicCalculatorProblem } from "./basic-calculator/definition";
+import { deleteNodeBSTProblem } from "./delete-node-in-a-bst/definition";
+import { floodFillProblem } from "./flood-fill/definition";
+import { combinationsProblem } from "./combinations/definition";
+import { findTheDifferenceProblem } from "./find-the-difference/definition";
+import { countGoodNumbersProblem } from "./count-good-numbers/definition";
+import { buildArrayPermutationProblem } from "./build-array-from-permutation/definition";
+import { rangeCoveredProblem } from "./check-if-all-the-integers-in-a-range-are-covered/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -575,4 +584,13 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   designHitCounterProblem,
   reorderedPowerOf2Problem,
   wordBreakIIProblem,
+  targetSumProblem,
+  basicCalculatorProblem,
+  deleteNodeBSTProblem,
+  floodFillProblem,
+  combinationsProblem,
+  findTheDifferenceProblem,
+  countGoodNumbersProblem,
+  buildArrayPermutationProblem,
+  rangeCoveredProblem,
 ];
