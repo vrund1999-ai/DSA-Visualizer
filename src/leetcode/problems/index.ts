@@ -358,6 +358,16 @@ import { largestOddNumberInStringProblem } from "./largest-odd-number-in-string/
 import { maxSumEqualDigitSumProblem } from "./max-sum-of-a-pair-with-equal-sum-of-digits/definition";
 import { eliminationGameProblem } from "./elimination-game/definition";
 import { letterTilePossibilitiesProblem } from "./letter-tile-possibilities/definition";
+import { removeAdjacentDuplicatesProblem } from "./remove-all-adjacent-duplicates-in-string/definition";
+import { reverseSubstringsBetweenParenthesesProblem } from "./reverse-substrings-between-each-pair-of-parentheses/definition";
+import { addToArrayFormProblem } from "./add-to-array-form-of-integer/definition";
+import { singleNumberIIIProblem } from "./single-number-iii/definition";
+import { tupleWithSameProductProblem } from "./tuple-with-same-product/definition";
+import { flattenMultilevelListProblem } from "./flatten-a-multilevel-doubly-linked-list/definition";
+import { findingThreeDigitEvenNumbersProblem } from "./finding-3-digit-even-numbers/definition";
+import { numberOfDigitOneProblem } from "./number-of-digit-one/definition";
+import { removeLetterToEqualizeFrequencyProblem } from "./remove-letter-to-equalize-frequency/definition";
+import { textJustificationProblem } from "./text-justification/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -729,4 +739,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   maxSumEqualDigitSumProblem,
   eliminationGameProblem,
   letterTilePossibilitiesProblem,
+  removeAdjacentDuplicatesProblem,
+  reverseSubstringsBetweenParenthesesProblem,
+  addToArrayFormProblem,
+  singleNumberIIIProblem,
+  tupleWithSameProductProblem,
+  flattenMultilevelListProblem,
+  findingThreeDigitEvenNumbersProblem,
+  numberOfDigitOneProblem,
+  removeLetterToEqualizeFrequencyProblem,
+  textJustificationProblem,
 ];
