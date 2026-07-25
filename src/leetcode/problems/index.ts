@@ -329,6 +329,16 @@ import { subarraysKDistinctProblem } from "./subarrays-with-k-different-integers
 import { complementBase10Problem } from "./complement-of-base-10-integer/definition";
 import { partitionArrayPivotProblem } from "./partition-array-according-to-given-pivot/definition";
 import { truncateSentenceProblem } from "./truncate-sentence/definition";
+import { insertIntervalProblem } from "./insert-interval/definition";
+import { islandPerimeterProblem } from "./island-perimeter/definition";
+import { palindromicSubstringsProblem } from "./palindromic-substrings/definition";
+import { maximumWidthRampProblem } from "./maximum-width-ramp/definition";
+import { largestDivisibleSubsetProblem } from "./largest-divisible-subset/definition";
+import { numberOfGoodPairsProblem } from "./number-of-good-pairs/definition";
+import { studentsUnableToEatProblem } from "./number-of-students-unable-to-eat-lunch/definition";
+import { reorganizeStringProblem } from "./reorganize-string/definition";
+import { heatersProblem } from "./heaters/definition";
+import { longestMonotonicSubarrayProblem } from "./longest-strictly-increasing-or-strictly-decreasing-subarray/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -671,4 +681,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   complementBase10Problem,
   partitionArrayPivotProblem,
   truncateSentenceProblem,
+  insertIntervalProblem,
+  islandPerimeterProblem,
+  palindromicSubstringsProblem,
+  maximumWidthRampProblem,
+  largestDivisibleSubsetProblem,
+  numberOfGoodPairsProblem,
+  studentsUnableToEatProblem,
+  reorganizeStringProblem,
+  heatersProblem,
+  longestMonotonicSubarrayProblem,
 ];
