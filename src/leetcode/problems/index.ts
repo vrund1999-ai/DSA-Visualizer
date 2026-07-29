@@ -498,6 +498,16 @@ import { kDiffPairsProblem } from "./k-diff-pairs-in-an-array/definition";
 import { longestStringChainProblem } from "./longest-string-chain/definition";
 import { containsDuplicateIIIProblem } from "./contains-duplicate-iii/definition";
 import { maxChunksToSortedProblem } from "./max-chunks-to-make-sorted/definition";
+import { distributeCandiesProblem } from "./distribute-candies/definition";
+import { divideArrayEqualPairsProblem } from "./divide-array-into-equal-pairs/definition";
+import { largest3SameDigitProblem } from "./largest-3-same-digit-number-in-string/definition";
+import { maximumPopulationYearProblem } from "./maximum-population-year/definition";
+import { maximumVowelsSubstringProblem } from "./maximum-number-of-vowels-in-a-substring-of-given-length/definition";
+import { maximumRepeatedSubarrayProblem } from "./maximum-length-of-repeated-subarray/definition";
+import { fourDivisorsProblem } from "./four-divisors/definition";
+import { jumpGameVIIProblem } from "./jump-game-vii/definition";
+import { maxPointsOnLineProblem } from "./max-points-on-a-line/definition";
+import { countConsistentStringsProblem } from "./count-the-number-of-consistent-strings/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1009,4 +1019,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   longestStringChainProblem,
   containsDuplicateIIIProblem,
   maxChunksToSortedProblem,
+  distributeCandiesProblem,
+  divideArrayEqualPairsProblem,
+  largest3SameDigitProblem,
+  maximumPopulationYearProblem,
+  maximumVowelsSubstringProblem,
+  maximumRepeatedSubarrayProblem,
+  fourDivisorsProblem,
+  jumpGameVIIProblem,
+  maxPointsOnLineProblem,
+  countConsistentStringsProblem,
 ];
