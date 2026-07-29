@@ -508,6 +508,16 @@ import { fourDivisorsProblem } from "./four-divisors/definition";
 import { jumpGameVIIProblem } from "./jump-game-vii/definition";
 import { maxPointsOnLineProblem } from "./max-points-on-a-line/definition";
 import { countConsistentStringsProblem } from "./count-the-number-of-consistent-strings/definition";
+import { minimumBitFlipsProblem } from "./minimum-bit-flips-to-convert-number/definition";
+import { nthTribonacciProblem } from "./n-th-tribonacci-number/definition";
+import { pascalsTriangleIIProblem } from "./pascals-triangle-ii/definition";
+import { richestCustomerWealthProblem } from "./richest-customer-wealth/definition";
+import { partitionLabelsProblem } from "./partition-labels/definition";
+import { minArrowsBalloonsProblem } from "./minimum-number-of-arrows-to-burst-balloons/definition";
+import { openTheLockProblem } from "./open-the-lock/definition";
+import { networkDelayTimeProblem } from "./network-delay-time/definition";
+import { maximumTwinSumProblem } from "./maximum-twin-sum-of-a-linked-list/definition";
+import { trappingRainWaterIIProblem } from "./trapping-rain-water-ii/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1029,4 +1039,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   jumpGameVIIProblem,
   maxPointsOnLineProblem,
   countConsistentStringsProblem,
+  minimumBitFlipsProblem,
+  nthTribonacciProblem,
+  pascalsTriangleIIProblem,
+  richestCustomerWealthProblem,
+  partitionLabelsProblem,
+  minArrowsBalloonsProblem,
+  openTheLockProblem,
+  networkDelayTimeProblem,
+  maximumTwinSumProblem,
+  trappingRainWaterIIProblem,
 ];
