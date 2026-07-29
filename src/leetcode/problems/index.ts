@@ -458,6 +458,16 @@ import { pushDominoesProblem } from "./push-dominoes/definition";
 import { nextGreaterNodeProblem } from "./next-greater-node-in-linked-list/definition";
 import { sumOfSubarrayRangesProblem } from "./sum-of-subarray-ranges/definition";
 import { minCostCutStickProblem } from "./minimum-cost-to-cut-a-stick/definition";
+import { minimumTimeVisitingAllPointsProblem } from "./minimum-time-visiting-all-points/definition";
+import { robotReturnToOriginProblem } from "./robot-return-to-origin/definition";
+import { relativeRanksProblem } from "./relative-ranks/definition";
+import { minCostMoveChipsProblem } from "./minimum-cost-to-move-chips-to-the-same-position/definition";
+import { subtreeOfAnotherTreeProblem } from "./subtree-of-another-tree/definition";
+import { longestPalindromicSubsequenceProblem } from "./longest-palindromic-subsequence/definition";
+import { longestNiceSubarrayProblem } from "./longest-nice-subarray/definition";
+import { numberOfEnclavesProblem } from "./number-of-enclaves/definition";
+import { smallestDivisorThresholdProblem } from "./find-the-smallest-divisor-given-a-threshold/definition";
+import { minRefuelStopsProblem } from "./minimum-number-of-refueling-stops/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -929,4 +939,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   nextGreaterNodeProblem,
   sumOfSubarrayRangesProblem,
   minCostCutStickProblem,
+  minimumTimeVisitingAllPointsProblem,
+  robotReturnToOriginProblem,
+  relativeRanksProblem,
+  minCostMoveChipsProblem,
+  subtreeOfAnotherTreeProblem,
+  longestPalindromicSubsequenceProblem,
+  longestNiceSubarrayProblem,
+  numberOfEnclavesProblem,
+  smallestDivisorThresholdProblem,
+  minRefuelStopsProblem,
 ];
