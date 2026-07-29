@@ -448,6 +448,16 @@ import { countSubmatricesAllOnesProblem } from "./count-submatrices-with-all-one
 import { designAddSearchWordsProblem } from "./design-add-and-search-words-data-structure/definition";
 import { allocateMailboxesProblem } from "./allocate-mailboxes/definition";
 import { countArraysKMatchingProblem } from "./count-the-number-of-arrays-with-k-matching-adjacent-elements/definition";
+import { findHighestAltitudeProblem } from "./find-the-highest-altitude/definition";
+import { intersectionTwoArraysIIProblem } from "./intersection-of-two-arrays-ii/definition";
+import { longestHarmoniousSubsequenceProblem } from "./longest-harmonious-subsequence/definition";
+import { maxKSumPairsProblem } from "./max-number-of-k-sum-pairs/definition";
+import { maximumPointsFromCardsProblem } from "./maximum-points-you-can-obtain-from-cards/definition";
+import { kClosestPointsProblem } from "./k-closest-points-to-origin/definition";
+import { pushDominoesProblem } from "./push-dominoes/definition";
+import { nextGreaterNodeProblem } from "./next-greater-node-in-linked-list/definition";
+import { sumOfSubarrayRangesProblem } from "./sum-of-subarray-ranges/definition";
+import { minCostCutStickProblem } from "./minimum-cost-to-cut-a-stick/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -909,4 +919,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   designAddSearchWordsProblem,
   allocateMailboxesProblem,
   countArraysKMatchingProblem,
+  findHighestAltitudeProblem,
+  intersectionTwoArraysIIProblem,
+  longestHarmoniousSubsequenceProblem,
+  maxKSumPairsProblem,
+  maximumPointsFromCardsProblem,
+  kClosestPointsProblem,
+  pushDominoesProblem,
+  nextGreaterNodeProblem,
+  sumOfSubarrayRangesProblem,
+  minCostCutStickProblem,
 ];
