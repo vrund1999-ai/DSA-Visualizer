@@ -468,6 +468,16 @@ import { longestNiceSubarrayProblem } from "./longest-nice-subarray/definition";
 import { numberOfEnclavesProblem } from "./number-of-enclaves/definition";
 import { smallestDivisorThresholdProblem } from "./find-the-smallest-divisor-given-a-threshold/definition";
 import { minRefuelStopsProblem } from "./minimum-number-of-refueling-stops/definition";
+import { transposeMatrixProblem } from "./transpose-matrix/definition";
+import { countHillsValleysProblem } from "./count-hills-and-valleys-in-an-array/definition";
+import { findSubsequenceLargestSumProblem } from "./find-subsequence-of-length-k-with-the-largest-sum/definition";
+import { sumRootToLeafNumbersProblem } from "./sum-root-to-leaf-numbers/definition";
+import { numberOfMatchingSubsequencesProblem } from "./number-of-matching-subsequences/definition";
+import { minimumCostForTicketsProblem } from "./minimum-cost-for-tickets/definition";
+import { deleteAndEarnProblem } from "./delete-and-earn/definition";
+import { deleteMiddleNodeProblem } from "./delete-the-middle-node-of-a-linked-list/definition";
+import { burstBalloonsProblem } from "./burst-balloons/definition";
+import { snakesAndLaddersProblem } from "./snakes-and-ladders/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -949,4 +959,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   numberOfEnclavesProblem,
   smallestDivisorThresholdProblem,
   minRefuelStopsProblem,
+  transposeMatrixProblem,
+  countHillsValleysProblem,
+  findSubsequenceLargestSumProblem,
+  sumRootToLeafNumbersProblem,
+  numberOfMatchingSubsequencesProblem,
+  minimumCostForTicketsProblem,
+  deleteAndEarnProblem,
+  deleteMiddleNodeProblem,
+  burstBalloonsProblem,
+  snakesAndLaddersProblem,
 ];
