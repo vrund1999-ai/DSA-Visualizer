@@ -478,6 +478,16 @@ import { deleteAndEarnProblem } from "./delete-and-earn/definition";
 import { deleteMiddleNodeProblem } from "./delete-the-middle-node-of-a-linked-list/definition";
 import { burstBalloonsProblem } from "./burst-balloons/definition";
 import { snakesAndLaddersProblem } from "./snakes-and-ladders/definition";
+import { typeOfTriangleProblem } from "./type-of-triangle/definition";
+import { findCommonCharactersProblem } from "./find-common-characters/definition";
+import { findSmallestLetterProblem } from "./find-smallest-letter-greater-than-target/definition";
+import { findTownJudgeProblem } from "./find-the-town-judge/definition";
+import { gameOfLifeProblem } from "./game-of-life/definition";
+import { handOfStraightsProblem } from "./hand-of-straights/definition";
+import { combinationSumIIIProblem } from "./combination-sum-iii/definition";
+import { constructBstFromPreorderProblem } from "./construct-binary-search-tree-from-preorder-traversal/definition";
+import { integerBreakProblem } from "./integer-break/definition";
+import { binaryTreeCamerasProblem } from "./binary-tree-cameras/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -969,4 +979,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   deleteMiddleNodeProblem,
   burstBalloonsProblem,
   snakesAndLaddersProblem,
+  typeOfTriangleProblem,
+  findCommonCharactersProblem,
+  findSmallestLetterProblem,
+  findTownJudgeProblem,
+  gameOfLifeProblem,
+  handOfStraightsProblem,
+  combinationSumIIIProblem,
+  constructBstFromPreorderProblem,
+  integerBreakProblem,
+  binaryTreeCamerasProblem,
 ];
