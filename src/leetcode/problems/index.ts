@@ -518,6 +518,16 @@ import { openTheLockProblem } from "./open-the-lock/definition";
 import { networkDelayTimeProblem } from "./network-delay-time/definition";
 import { maximumTwinSumProblem } from "./maximum-twin-sum-of-a-linked-list/definition";
 import { trappingRainWaterIIProblem } from "./trapping-rain-water-ii/definition";
+import { findLargestValueInTreeRowProblem } from "./find-largest-value-in-each-tree-row/definition";
+import { findPeakElementIIProblem } from "./find-a-peak-element-ii/definition";
+import { shortestSubarrayRemovalProblem } from "./shortest-subarray-to-be-removed-to-make-array-sorted/definition";
+import { moveAllBallsToEachBoxProblem } from "./minimum-number-of-operations-to-move-all-balls-to-each-box/definition";
+import { minimumGeneticMutationProblem } from "./minimum-genetic-mutation/definition";
+import { minimumDeletionsBalancedProblem } from "./minimum-deletions-to-make-string-balanced/definition";
+import { meetingRoomsProblem } from "./meeting-rooms/definition";
+import { maxSum3NonOverlappingProblem } from "./maximum-sum-of-3-non-overlapping-subarrays/definition";
+import { smallestRangeKListsProblem } from "./smallest-range-covering-elements-from-k-lists/definition";
+import { maximumXorProblem } from "./maximum-xor-of-two-numbers-in-an-array/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1049,4 +1059,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   networkDelayTimeProblem,
   maximumTwinSumProblem,
   trappingRainWaterIIProblem,
+  findLargestValueInTreeRowProblem,
+  findPeakElementIIProblem,
+  shortestSubarrayRemovalProblem,
+  moveAllBallsToEachBoxProblem,
+  minimumGeneticMutationProblem,
+  minimumDeletionsBalancedProblem,
+  meetingRoomsProblem,
+  maxSum3NonOverlappingProblem,
+  smallestRangeKListsProblem,
+  maximumXorProblem,
 ];
