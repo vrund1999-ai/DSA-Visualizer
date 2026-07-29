@@ -488,6 +488,16 @@ import { combinationSumIIIProblem } from "./combination-sum-iii/definition";
 import { constructBstFromPreorderProblem } from "./construct-binary-search-tree-from-preorder-traversal/definition";
 import { integerBreakProblem } from "./integer-break/definition";
 import { binaryTreeCamerasProblem } from "./binary-tree-cameras/definition";
+import { finalValueOfVariableProblem } from "./final-value-of-variable-after-performing-operations/definition";
+import { lastStoneWeightProblem } from "./last-stone-weight/definition";
+import { makeTheStringGreatProblem } from "./make-the-string-great/definition";
+import { leftRightSumDifferencesProblem } from "./left-and-right-sum-differences/definition";
+import { countServersProblem } from "./count-servers-that-communicate/definition";
+import { findBottomLeftValueProblem } from "./find-bottom-left-tree-value/definition";
+import { kDiffPairsProblem } from "./k-diff-pairs-in-an-array/definition";
+import { longestStringChainProblem } from "./longest-string-chain/definition";
+import { containsDuplicateIIIProblem } from "./contains-duplicate-iii/definition";
+import { maxChunksToSortedProblem } from "./max-chunks-to-make-sorted/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -989,4 +999,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   constructBstFromPreorderProblem,
   integerBreakProblem,
   binaryTreeCamerasProblem,
+  finalValueOfVariableProblem,
+  lastStoneWeightProblem,
+  makeTheStringGreatProblem,
+  leftRightSumDifferencesProblem,
+  countServersProblem,
+  findBottomLeftValueProblem,
+  kDiffPairsProblem,
+  longestStringChainProblem,
+  containsDuplicateIIIProblem,
+  maxChunksToSortedProblem,
 ];
