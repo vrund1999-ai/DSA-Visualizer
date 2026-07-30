@@ -698,6 +698,16 @@ import { countGoodTripletsProblem } from "./count-good-triplets/definition";
 import { countLargestGroupProblem } from "./count-largest-group/definition";
 import { findCommonElementsProblem } from "./find-common-elements-between-two-arrays/definition";
 import { closestPrimesProblem } from "./closest-prime-numbers-in-range/definition";
+import { validNumberProblem } from "./valid-number/definition";
+import { exclusiveTimeProblem } from "./exclusive-time-of-functions/definition";
+import { findDuplicateSubtreesProblem } from "./find-duplicate-subtrees/definition";
+import { designTwitterProblem } from "./design-twitter/definition";
+import { finalPricesProblem } from "./final-prices-with-a-special-discount-in-a-shop/definition";
+import { duplicateZerosProblem } from "./duplicate-zeros/definition";
+import { twoStringsCloseProblem } from "./determine-if-two-strings-are-close/definition";
+import { createTargetArrayProblem } from "./create-target-array-in-the-given-order/definition";
+import { calculateTaxProblem } from "./calculate-amount-paid-in-taxes/definition";
+import { avoidFloodProblem } from "./avoid-flood-in-the-city/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1409,4 +1419,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   countLargestGroupProblem,
   findCommonElementsProblem,
   closestPrimesProblem,
+  validNumberProblem,
+  exclusiveTimeProblem,
+  findDuplicateSubtreesProblem,
+  designTwitterProblem,
+  finalPricesProblem,
+  duplicateZerosProblem,
+  twoStringsCloseProblem,
+  createTargetArrayProblem,
+  calculateTaxProblem,
+  avoidFloodProblem,
 ];
