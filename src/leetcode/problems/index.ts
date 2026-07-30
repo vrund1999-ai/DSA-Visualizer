@@ -598,6 +598,16 @@ import { outOfBoundaryPathsProblem } from "./out-of-boundary-paths/definition";
 import { numsSameConsecDiffProblem } from "./numbers-with-same-consecutive-differences/definition";
 import { regionsCutBySlashesProblem } from "./regions-cut-by-slashes/definition";
 import { partitionThreePartsProblem } from "./partition-array-into-three-parts-with-equal-sum/definition";
+import { theSkylineProblem } from "./the-skyline-problem/definition";
+import { wallsAndGatesProblem } from "./walls-and-gates/definition";
+import { theMazeProblem } from "./the-maze/definition";
+import { smallestStringWithSwapsProblem } from "./smallest-string-with-swaps/definition";
+import { stoneGameProblem } from "./stone-game/definition";
+import { uniqueBSTsProblem } from "./unique-binary-search-trees/definition";
+import { kWeakestRowsProblem } from "./the-k-weakest-rows-in-a-matrix/definition";
+import { totalHammingDistanceProblem } from "./total-hamming-distance/definition";
+import { waterBottlesProblem } from "./water-bottles/definition";
+import { swappingNodesProblem } from "./swapping-nodes-in-a-linked-list/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1209,4 +1219,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   numsSameConsecDiffProblem,
   regionsCutBySlashesProblem,
   partitionThreePartsProblem,
+  theSkylineProblem,
+  wallsAndGatesProblem,
+  theMazeProblem,
+  smallestStringWithSwapsProblem,
+  stoneGameProblem,
+  uniqueBSTsProblem,
+  kWeakestRowsProblem,
+  totalHammingDistanceProblem,
+  waterBottlesProblem,
+  swappingNodesProblem,
 ];
