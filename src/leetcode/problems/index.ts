@@ -608,6 +608,16 @@ import { kWeakestRowsProblem } from "./the-k-weakest-rows-in-a-matrix/definition
 import { totalHammingDistanceProblem } from "./total-hamming-distance/definition";
 import { waterBottlesProblem } from "./water-bottles/definition";
 import { swappingNodesProblem } from "./swapping-nodes-in-a-linked-list/definition";
+import { maximumCandiesProblem } from "./maximum-candies-allocated-to-k-children/definition";
+import { minimumAreaCoverOnesProblem } from "./find-the-minimum-area-to-cover-all-ones-i/definition";
+import { zeroArrayTransformationProblem } from "./zero-array-transformation-i/definition";
+import { maxSubarraySumDivKProblem } from "./maximum-subarray-sum-with-length-divisible-by-k/definition";
+import { minimumTimeDifferenceProblem } from "./minimum-time-difference/definition";
+import { longestBinarySubsequenceProblem } from "./longest-binary-subsequence-less-than-or-equal-to-k/definition";
+import { balanceBSTProblem } from "./balance-a-binary-search-tree/definition";
+import { prefixCommonArrayProblem } from "./find-the-prefix-common-array-of-two-arrays/definition";
+import { largestTriangleAreaProblem } from "./largest-triangle-area/definition";
+import { applyOperationsProblem } from "./apply-operations-to-an-array/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1229,4 +1239,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   totalHammingDistanceProblem,
   waterBottlesProblem,
   swappingNodesProblem,
+  maximumCandiesProblem,
+  minimumAreaCoverOnesProblem,
+  zeroArrayTransformationProblem,
+  maxSubarraySumDivKProblem,
+  minimumTimeDifferenceProblem,
+  longestBinarySubsequenceProblem,
+  balanceBSTProblem,
+  prefixCommonArrayProblem,
+  largestTriangleAreaProblem,
+  applyOperationsProblem,
 ];
