@@ -728,6 +728,16 @@ import { maxTastinessProblem } from "./maximum-tastiness-of-candy-basket/definit
 import { maximum69Problem } from "./maximum-69-number/definition";
 import { findMiddleIndexProblem } from "./find-the-middle-index-in-array/definition";
 import { minPenaltyShopProblem } from "./minimum-penalty-for-a-shop/definition";
+import { predictTheWinnerProblem } from "./predict-the-winner/definition";
+import { myCalendarIProblem } from "./my-calendar-i/definition";
+import { parseBoolExprProblem } from "./parsing-a-boolean-expression/definition";
+import { onlineElectionProblem } from "./online-election/definition";
+import { movingAverageProblem } from "./moving-average-from-data-stream/definition";
+import { rangeSumBstProblem } from "./range-sum-of-bst/definition";
+import { relativeSortArrayProblem } from "./relative-sort-array/definition";
+import { productLastKProblem } from "./product-of-the-last-k-numbers/definition";
+import { maxDistanceInArraysProblem } from "./maximum-distance-in-arrays/definition";
+import { removeDigitMaximizeProblem } from "./remove-digit-from-number-to-maximize-result/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1469,4 +1479,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   maximum69Problem,
   findMiddleIndexProblem,
   minPenaltyShopProblem,
+  predictTheWinnerProblem,
+  myCalendarIProblem,
+  parseBoolExprProblem,
+  onlineElectionProblem,
+  movingAverageProblem,
+  rangeSumBstProblem,
+  relativeSortArrayProblem,
+  productLastKProblem,
+  maxDistanceInArraysProblem,
+  removeDigitMaximizeProblem,
 ];
