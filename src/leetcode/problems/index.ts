@@ -548,6 +548,16 @@ import { findKPairsSmallestSumsProblem } from "./find-k-pairs-with-smallest-sums
 import { dominoTrominoTilingProblem } from "./domino-and-tromino-tiling/definition";
 import { bullsAndCowsProblem } from "./bulls-and-cows/definition";
 import { treeInfectionTimeProblem } from "./amount-of-time-for-binary-tree-to-be-infected/definition";
+import { maxSumCircularSubarrayProblem } from "./maximum-sum-circular-subarray/definition";
+import { pacificAtlanticProblem } from "./pacific-atlantic-water-flow/definition";
+import { spiralMatrixIIProblem } from "./spiral-matrix-ii/definition";
+import { minimumFallingPathSumProblem } from "./minimum-falling-path-sum/definition";
+import { shortestUnsortedSubarrayProblem } from "./shortest-unsorted-continuous-subarray/definition";
+import { revealCardsProblem } from "./reveal-cards-in-increasing-order/definition";
+import { pathSumIIIProblem } from "./path-sum-iii/definition";
+import { maximumFrequencyStackProblem } from "./maximum-frequency-stack/definition";
+import { knightDialerProblem } from "./knight-dialer/definition";
+import { longestContinuousIncreasingProblem } from "./longest-continuous-increasing-subsequence/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1109,4 +1119,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   dominoTrominoTilingProblem,
   bullsAndCowsProblem,
   treeInfectionTimeProblem,
+  maxSumCircularSubarrayProblem,
+  pacificAtlanticProblem,
+  spiralMatrixIIProblem,
+  minimumFallingPathSumProblem,
+  shortestUnsortedSubarrayProblem,
+  revealCardsProblem,
+  pathSumIIIProblem,
+  maximumFrequencyStackProblem,
+  knightDialerProblem,
+  longestContinuousIncreasingProblem,
 ];
