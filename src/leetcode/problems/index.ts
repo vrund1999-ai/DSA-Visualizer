@@ -628,6 +628,16 @@ import { maxProductSplitTreeProblem } from "./maximum-product-of-splitted-binary
 import { smallestSubarraysMaxOrProblem } from "./smallest-subarrays-with-maximum-bitwise-or/definition";
 import { checkPowersOfThreeProblem } from "./check-if-number-is-a-sum-of-powers-of-three/definition";
 import { stringMatchingProblem } from "./string-matching-in-an-array/definition";
+import { countPathsProblem } from "./number-of-ways-to-arrive-at-destination/definition";
+import { orderedTripletProblem } from "./maximum-value-of-an-ordered-triplet-ii/definition";
+import { minPairRemovalProblem } from "./minimum-pair-removal-to-sort-array-i/definition";
+import { removeZeroSumNodesProblem } from "./remove-zero-sum-consecutive-nodes-from-linked-list/definition";
+import { mysticDungeonEnergyProblem } from "./taking-maximum-energy-from-the-mystic-dungeon/definition";
+import { longestVowelEvenProblem } from "./find-the-longest-substring-containing-vowels-in-even-counts/definition";
+import { shortestDistBuildingsProblem } from "./shortest-distance-from-all-buildings/definition";
+import { mutatedArrayProblem } from "./sum-of-mutated-array-closest-to-target/definition";
+import { rangeSumSortedSubarrayProblem } from "./range-sum-of-sorted-subarray-sums/definition";
+import { specialArrayProblem } from "./special-array-with-x-elements-greater-than-or-equal-x/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1269,4 +1279,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   smallestSubarraysMaxOrProblem,
   checkPowersOfThreeProblem,
   stringMatchingProblem,
+  countPathsProblem,
+  orderedTripletProblem,
+  minPairRemovalProblem,
+  removeZeroSumNodesProblem,
+  mysticDungeonEnergyProblem,
+  longestVowelEvenProblem,
+  shortestDistBuildingsProblem,
+  mutatedArrayProblem,
+  rangeSumSortedSubarrayProblem,
+  specialArrayProblem,
 ];
