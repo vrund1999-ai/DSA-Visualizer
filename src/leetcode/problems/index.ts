@@ -538,6 +538,16 @@ import { magicSquaresInGridProblem } from "./magic-squares-in-grid/definition";
 import { onesAndZeroesProblem } from "./ones-and-zeroes/definition";
 import { champagneTowerProblem } from "./champagne-tower/definition";
 import { rotateFunctionProblem } from "./rotate-function/definition";
+import { successfulPairsProblem } from "./successful-pairs-of-spells-and-potions/definition";
+import { rangeSumQuery2DProblem } from "./range-sum-query-2d-immutable/definition";
+import { partitionArrayMaxSumProblem } from "./partition-array-for-maximum-sum/definition";
+import { brickWallProblem } from "./brick-wall/definition";
+import { dungeonGameProblem } from "./dungeon-game/definition";
+import { constructFromInorderPostorderProblem } from "./construct-binary-tree-from-inorder-and-postorder-traversal/definition";
+import { findKPairsSmallestSumsProblem } from "./find-k-pairs-with-smallest-sums/definition";
+import { dominoTrominoTilingProblem } from "./domino-and-tromino-tiling/definition";
+import { bullsAndCowsProblem } from "./bulls-and-cows/definition";
+import { treeInfectionTimeProblem } from "./amount-of-time-for-binary-tree-to-be-infected/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1089,4 +1099,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   onesAndZeroesProblem,
   champagneTowerProblem,
   rotateFunctionProblem,
+  successfulPairsProblem,
+  rangeSumQuery2DProblem,
+  partitionArrayMaxSumProblem,
+  brickWallProblem,
+  dungeonGameProblem,
+  constructFromInorderPostorderProblem,
+  findKPairsSmallestSumsProblem,
+  dominoTrominoTilingProblem,
+  bullsAndCowsProblem,
+  treeInfectionTimeProblem,
 ];
