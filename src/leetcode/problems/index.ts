@@ -678,6 +678,16 @@ import { ipoProblem } from "./ipo/definition";
 import { integerToEnglishProblem } from "./integer-to-english-words/definition";
 import { furthestPointProblem } from "./furthest-point-from-origin/definition";
 import { countMaxFreqProblem } from "./count-elements-with-maximum-frequency/definition";
+import { containVirusProblem } from "./contain-virus/definition";
+import { expressionAddOperatorsProblem } from "./expression-add-operators/definition";
+import { kthCharacterGameProblem } from "./find-the-k-th-character-in-string-game-i/definition";
+import { sumOfBeautyProblem } from "./sum-of-beauty-of-all-substrings/definition";
+import { kthHappyStringProblem } from "./the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/definition";
+import { sumOfPowersProblem } from "./ways-to-express-an-integer-as-sum-of-powers/definition";
+import { designLinkedListProblem } from "./design-linked-list/definition";
+import { rowWithMaxOnesProblem } from "./row-with-maximum-ones/definition";
+import { powerOfFourProblem } from "./power-of-four/definition";
+import { makeElementsDistinctProblem } from "./minimum-number-of-operations-to-make-elements-in-array-distinct/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1369,4 +1379,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   integerToEnglishProblem,
   furthestPointProblem,
   countMaxFreqProblem,
+  containVirusProblem,
+  expressionAddOperatorsProblem,
+  kthCharacterGameProblem,
+  sumOfBeautyProblem,
+  kthHappyStringProblem,
+  sumOfPowersProblem,
+  designLinkedListProblem,
+  rowWithMaxOnesProblem,
+  powerOfFourProblem,
+  makeElementsDistinctProblem,
 ];
