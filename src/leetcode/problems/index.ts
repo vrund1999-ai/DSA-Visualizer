@@ -578,6 +578,16 @@ import { flowerPlantingProblem } from "./flower-planting-with-no-adjacent/defini
 import { greatestSumDivThreeProblem } from "./greatest-sum-divisible-by-three/definition";
 import { findOriginalDoubledProblem } from "./find-original-array-from-doubled-array/definition";
 import { getEqualSubstringsProblem } from "./get-equal-substrings-within-budget/definition";
+import { maximalSquareProblem } from "./maximal-square/definition";
+import { isGraphBipartiteProblem } from "./is-graph-bipartite/definition";
+import { kthSmallestInMatrixProblem } from "./kth-smallest-element-in-a-sorted-matrix/definition";
+import { grumpyBookstoreProblem } from "./grumpy-bookstore-owner/definition";
+import { longestArithmeticSeqProblem } from "./longest-arithmetic-subsequence/definition";
+import { maximumUnitsProblem } from "./maximum-units-on-a-truck/definition";
+import { gridGameProblem } from "./grid-game/definition";
+import { letterCasePermutationProblem } from "./letter-case-permutation/definition";
+import { longestUnivaluePathProblem } from "./longest-univalue-path/definition";
+import { groupThePeopleProblem } from "./group-the-people-given-the-group-size-they-belong-to/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1169,4 +1179,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   greatestSumDivThreeProblem,
   findOriginalDoubledProblem,
   getEqualSubstringsProblem,
+  maximalSquareProblem,
+  isGraphBipartiteProblem,
+  kthSmallestInMatrixProblem,
+  grumpyBookstoreProblem,
+  longestArithmeticSeqProblem,
+  maximumUnitsProblem,
+  gridGameProblem,
+  letterCasePermutationProblem,
+  longestUnivaluePathProblem,
+  groupThePeopleProblem,
 ];
