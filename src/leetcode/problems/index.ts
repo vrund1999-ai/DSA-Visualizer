@@ -588,6 +588,16 @@ import { gridGameProblem } from "./grid-game/definition";
 import { letterCasePermutationProblem } from "./letter-case-permutation/definition";
 import { longestUnivaluePathProblem } from "./longest-univalue-path/definition";
 import { groupThePeopleProblem } from "./group-the-people-given-the-group-size-they-belong-to/definition";
+import { minimumKnightMovesProblem } from "./minimum-knight-moves/definition";
+import { visiblePeopleQueueProblem } from "./number-of-visible-people-in-a-queue/definition";
+import { scoreOfParenthesesProblem } from "./score-of-parentheses/definition";
+import { partitionKSubsetsProblem } from "./partition-to-k-equal-sum-subsets/definition";
+import { russianDollEnvelopesProblem } from "./russian-doll-envelopes/definition";
+import { robotBoundedProblem } from "./robot-bounded-in-circle/definition";
+import { outOfBoundaryPathsProblem } from "./out-of-boundary-paths/definition";
+import { numsSameConsecDiffProblem } from "./numbers-with-same-consecutive-differences/definition";
+import { regionsCutBySlashesProblem } from "./regions-cut-by-slashes/definition";
+import { partitionThreePartsProblem } from "./partition-array-into-three-parts-with-equal-sum/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1189,4 +1199,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   letterCasePermutationProblem,
   longestUnivaluePathProblem,
   groupThePeopleProblem,
+  minimumKnightMovesProblem,
+  visiblePeopleQueueProblem,
+  scoreOfParenthesesProblem,
+  partitionKSubsetsProblem,
+  russianDollEnvelopesProblem,
+  robotBoundedProblem,
+  outOfBoundaryPathsProblem,
+  numsSameConsecDiffProblem,
+  regionsCutBySlashesProblem,
+  partitionThreePartsProblem,
 ];
