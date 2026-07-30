@@ -648,6 +648,16 @@ import { canBeValidParenProblem } from "./check-if-a-parentheses-string-can-be-v
 import { customSortStringProblem } from "./custom-sort-string/definition";
 import { diStringMatchProblem } from "./di-string-match/definition";
 import { divideArrayMaxDiffProblem } from "./divide-array-into-arrays-with-max-difference/definition";
+import { grayCodeProblem } from "./gray-code/definition";
+import { houseRobberIIIProblem } from "./house-robber-iii/definition";
+import { intervalIntersectionsProblem } from "./interval-list-intersections/definition";
+import { longestIncreasingPathProblem } from "./longest-increasing-path-in-a-matrix/definition";
+import { kthGrammarProblem } from "./k-th-symbol-in-grammar/definition";
+import { insertIntoBSTProblem } from "./insert-into-a-binary-search-tree/definition";
+import { maxAbsoluteSumProblem } from "./maximum-absolute-sum-of-any-subarray/definition";
+import { maximumErasureValueProblem } from "./maximum-erasure-value/definition";
+import { flippingImageProblem } from "./flipping-an-image/definition";
+import { hammingDistanceProblem } from "./hamming-distance/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1309,4 +1319,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   customSortStringProblem,
   diStringMatchProblem,
   divideArrayMaxDiffProblem,
+  grayCodeProblem,
+  houseRobberIIIProblem,
+  intervalIntersectionsProblem,
+  longestIncreasingPathProblem,
+  kthGrammarProblem,
+  insertIntoBSTProblem,
+  maxAbsoluteSumProblem,
+  maximumErasureValueProblem,
+  flippingImageProblem,
+  hammingDistanceProblem,
 ];
