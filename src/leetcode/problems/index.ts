@@ -638,6 +638,16 @@ import { shortestDistBuildingsProblem } from "./shortest-distance-from-all-build
 import { mutatedArrayProblem } from "./sum-of-mutated-array-closest-to-target/definition";
 import { rangeSumSortedSubarrayProblem } from "./range-sum-of-sorted-subarray-sums/definition";
 import { specialArrayProblem } from "./special-array-with-x-elements-greater-than-or-equal-x/definition";
+import { continuousSubarraysProblem } from "./continuous-subarrays/definition";
+import { new21GameProblem } from "./new-21-game/definition";
+import { twoKeysKeyboardProblem } from "./2-keys-keyboard/definition";
+import { binaryTreePathsProblem } from "./binary-tree-paths/definition";
+import { constructFromPrePostProblem } from "./construct-binary-tree-from-preorder-and-postorder-traversal/definition";
+import { combinationSum4Problem } from "./combination-sum-iv/definition";
+import { canBeValidParenProblem } from "./check-if-a-parentheses-string-can-be-valid/definition";
+import { customSortStringProblem } from "./custom-sort-string/definition";
+import { diStringMatchProblem } from "./di-string-match/definition";
+import { divideArrayMaxDiffProblem } from "./divide-array-into-arrays-with-max-difference/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1289,4 +1299,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   mutatedArrayProblem,
   rangeSumSortedSubarrayProblem,
   specialArrayProblem,
+  continuousSubarraysProblem,
+  new21GameProblem,
+  twoKeysKeyboardProblem,
+  binaryTreePathsProblem,
+  constructFromPrePostProblem,
+  combinationSum4Problem,
+  canBeValidParenProblem,
+  customSortStringProblem,
+  diStringMatchProblem,
+  divideArrayMaxDiffProblem,
 ];
