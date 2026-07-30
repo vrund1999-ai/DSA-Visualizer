@@ -658,6 +658,16 @@ import { maxAbsoluteSumProblem } from "./maximum-absolute-sum-of-any-subarray/de
 import { maximumErasureValueProblem } from "./maximum-erasure-value/definition";
 import { flippingImageProblem } from "./flipping-an-image/definition";
 import { hammingDistanceProblem } from "./hamming-distance/definition";
+import { mergeTwoTreesProblem } from "./merge-two-binary-trees/definition";
+import { minHeightTreesProblem } from "./minimum-height-trees/definition";
+import { maximumMatrixSumProblem } from "./maximum-matrix-sum/definition";
+import { nearestExitMazeProblem } from "./nearest-exit-from-entrance-in-maze/definition";
+import { numberDistinctIslandsProblem } from "./number-of-distinct-islands/definition";
+import { longestHappyStringProblem } from "./longest-happy-string/definition";
+import { maxScoreRemovingSubstringsProblem } from "./maximum-score-from-removing-substrings/definition";
+import { minSwapsBalancedProblem } from "./minimum-number-of-swaps-to-make-the-string-balanced/definition";
+import { longestSubarrayOnesProblem } from "./longest-subarray-of-1s-after-deleting-one-element/definition";
+import { makeNetworkConnectedProblem } from "./number-of-operations-to-make-network-connected/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1329,4 +1339,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   maximumErasureValueProblem,
   flippingImageProblem,
   hammingDistanceProblem,
+  mergeTwoTreesProblem,
+  minHeightTreesProblem,
+  maximumMatrixSumProblem,
+  nearestExitMazeProblem,
+  numberDistinctIslandsProblem,
+  longestHappyStringProblem,
+  maxScoreRemovingSubstringsProblem,
+  minSwapsBalancedProblem,
+  longestSubarrayOnesProblem,
+  makeNetworkConnectedProblem,
 ];
