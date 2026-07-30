@@ -568,6 +568,16 @@ import { circularArrayLoopProblem } from "./circular-array-loop/definition";
 import { totalCostToHireProblem } from "./total-cost-to-hire-k-workers/definition";
 import { verifyingAlienDictionaryProblem } from "./verifying-an-alien-dictionary/definition";
 import { smallestUnoccupiedChairProblem } from "./the-number-of-the-smallest-unoccupied-chair/definition";
+import { countSquareSubmatricesProblem } from "./count-square-submatrices-with-all-ones/definition";
+import { distributeCoinsProblem } from "./distribute-coins-in-binary-tree/definition";
+import { dota2SenateProblem } from "./dota2-senate/definition";
+import { furthestBuildingProblem } from "./furthest-building-you-can-reach/definition";
+import { fractionToDecimalProblem } from "./fraction-to-recurring-decimal/definition";
+import { frogJumpProblem } from "./frog-jump/definition";
+import { flowerPlantingProblem } from "./flower-planting-with-no-adjacent/definition";
+import { greatestSumDivThreeProblem } from "./greatest-sum-divisible-by-three/definition";
+import { findOriginalDoubledProblem } from "./find-original-array-from-doubled-array/definition";
+import { getEqualSubstringsProblem } from "./get-equal-substrings-within-budget/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1149,4 +1159,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   totalCostToHireProblem,
   verifyingAlienDictionaryProblem,
   smallestUnoccupiedChairProblem,
+  countSquareSubmatricesProblem,
+  distributeCoinsProblem,
+  dota2SenateProblem,
+  furthestBuildingProblem,
+  fractionToDecimalProblem,
+  frogJumpProblem,
+  flowerPlantingProblem,
+  greatestSumDivThreeProblem,
+  findOriginalDoubledProblem,
+  getEqualSubstringsProblem,
 ];
