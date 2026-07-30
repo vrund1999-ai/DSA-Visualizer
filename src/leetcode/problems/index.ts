@@ -558,6 +558,16 @@ import { pathSumIIIProblem } from "./path-sum-iii/definition";
 import { maximumFrequencyStackProblem } from "./maximum-frequency-stack/definition";
 import { knightDialerProblem } from "./knight-dialer/definition";
 import { longestContinuousIncreasingProblem } from "./longest-continuous-increasing-subsequence/definition";
+import { validMountainArrayProblem } from "./valid-mountain-array/definition";
+import { shortestDistanceToCharProblem } from "./shortest-distance-to-a-character/definition";
+import { wiggleSortIIProblem } from "./wiggle-sort-ii/definition";
+import { sumOfLeftLeavesProblem } from "./sum-of-left-leaves/definition";
+import { wordSearchIIProblem } from "./word-search-ii/definition";
+import { battleshipsInBoardProblem } from "./battleships-in-a-board/definition";
+import { circularArrayLoopProblem } from "./circular-array-loop/definition";
+import { totalCostToHireProblem } from "./total-cost-to-hire-k-workers/definition";
+import { verifyingAlienDictionaryProblem } from "./verifying-an-alien-dictionary/definition";
+import { smallestUnoccupiedChairProblem } from "./the-number-of-the-smallest-unoccupied-chair/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1129,4 +1139,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   maximumFrequencyStackProblem,
   knightDialerProblem,
   longestContinuousIncreasingProblem,
+  validMountainArrayProblem,
+  shortestDistanceToCharProblem,
+  wiggleSortIIProblem,
+  sumOfLeftLeavesProblem,
+  wordSearchIIProblem,
+  battleshipsInBoardProblem,
+  circularArrayLoopProblem,
+  totalCostToHireProblem,
+  verifyingAlienDictionaryProblem,
+  smallestUnoccupiedChairProblem,
 ];
