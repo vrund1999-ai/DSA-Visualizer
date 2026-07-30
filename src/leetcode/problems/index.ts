@@ -708,6 +708,16 @@ import { twoStringsCloseProblem } from "./determine-if-two-strings-are-close/def
 import { createTargetArrayProblem } from "./create-target-array-in-the-given-order/definition";
 import { calculateTaxProblem } from "./calculate-amount-paid-in-taxes/definition";
 import { avoidFloodProblem } from "./avoid-flood-in-the-city/definition";
+import { game24Problem } from "./24-game/definition";
+import { kthBitProblem } from "./find-kth-bit-in-nth-binary-string/definition";
+import { kthLargestLevelSumProblem } from "./kth-largest-sum-in-a-binary-tree/definition";
+import { largestSubmatrixProblem } from "./largest-submatrix-with-rearrangements/definition";
+import { longestFibSubseqProblem } from "./length-of-longest-fibonacci-subsequence/definition";
+import { twoLetterPalindromeProblem } from "./longest-palindrome-by-concatenating-two-letter-words/definition";
+import { findScoreProblem } from "./find-score-of-an-array-after-marking-all-elements/definition";
+import { largestPerimeterProblem } from "./largest-perimeter-triangle/definition";
+import { heightCheckerProblem } from "./height-checker/definition";
+import { findDifferenceProblem } from "./find-the-difference-of-two-arrays/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1429,4 +1439,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   createTargetArrayProblem,
   calculateTaxProblem,
   avoidFloodProblem,
+  game24Problem,
+  kthBitProblem,
+  kthLargestLevelSumProblem,
+  largestSubmatrixProblem,
+  longestFibSubseqProblem,
+  twoLetterPalindromeProblem,
+  findScoreProblem,
+  largestPerimeterProblem,
+  heightCheckerProblem,
+  findDifferenceProblem,
 ];
