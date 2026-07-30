@@ -738,6 +738,16 @@ import { relativeSortArrayProblem } from "./relative-sort-array/definition";
 import { productLastKProblem } from "./product-of-the-last-k-numbers/definition";
 import { maxDistanceInArraysProblem } from "./maximum-distance-in-arrays/definition";
 import { removeDigitMaximizeProblem } from "./remove-digit-from-number-to-maximize-result/definition";
+import { superEggDropProblem } from "./super-egg-drop/definition";
+import { shortestPathObstaclesProblem } from "./shortest-path-in-a-grid-with-obstacles-elimination/definition";
+import { uniquePathsIIIProblem } from "./unique-paths-iii/definition";
+import { shortestSubarrayProblem } from "./shortest-subarray-with-sum-at-least-k/definition";
+import { searchBstProblem } from "./search-in-a-binary-search-tree/definition";
+import { sortThePeopleProblem } from "./sort-the-people/definition";
+import { waysToSplitArrayProblem } from "./number-of-ways-to-split-array/definition";
+import { repeatedStringMatchProblem } from "./repeated-string-match/definition";
+import { simpleBankSystemProblem } from "./simple-bank-system/definition";
+import { monotonicArrayProblem } from "./monotonic-array/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1489,4 +1499,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   productLastKProblem,
   maxDistanceInArraysProblem,
   removeDigitMaximizeProblem,
+  superEggDropProblem,
+  shortestPathObstaclesProblem,
+  uniquePathsIIIProblem,
+  shortestSubarrayProblem,
+  searchBstProblem,
+  sortThePeopleProblem,
+  waysToSplitArrayProblem,
+  repeatedStringMatchProblem,
+  simpleBankSystemProblem,
+  monotonicArrayProblem,
 ];
