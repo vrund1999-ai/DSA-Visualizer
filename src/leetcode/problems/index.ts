@@ -688,6 +688,16 @@ import { designLinkedListProblem } from "./design-linked-list/definition";
 import { rowWithMaxOnesProblem } from "./row-with-maximum-ones/definition";
 import { powerOfFourProblem } from "./power-of-four/definition";
 import { makeElementsDistinctProblem } from "./minimum-number-of-operations-to-make-elements-in-array-distinct/definition";
+import { createMaximumNumberProblem } from "./create-maximum-number/definition";
+import { vowelSpellcheckerProblem } from "./vowel-spellchecker/definition";
+import { sortedListToBstProblem } from "./convert-sorted-list-to-binary-search-tree/definition";
+import { concatenationBinaryProblem } from "./concatenation-of-consecutive-binary-numbers/definition";
+import { constructKPalindromesProblem } from "./construct-k-palindrome-strings/definition";
+import { alternatingGroupsIIProblem } from "./alternating-groups-ii/definition";
+import { countGoodTripletsProblem } from "./count-good-triplets/definition";
+import { countLargestGroupProblem } from "./count-largest-group/definition";
+import { findCommonElementsProblem } from "./find-common-elements-between-two-arrays/definition";
+import { closestPrimesProblem } from "./closest-prime-numbers-in-range/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1389,4 +1399,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   rowWithMaxOnesProblem,
   powerOfFourProblem,
   makeElementsDistinctProblem,
+  createMaximumNumberProblem,
+  vowelSpellcheckerProblem,
+  sortedListToBstProblem,
+  concatenationBinaryProblem,
+  constructKPalindromesProblem,
+  alternatingGroupsIIProblem,
+  countGoodTripletsProblem,
+  countLargestGroupProblem,
+  findCommonElementsProblem,
+  closestPrimesProblem,
 ];
