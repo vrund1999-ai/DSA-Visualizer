@@ -618,6 +618,16 @@ import { balanceBSTProblem } from "./balance-a-binary-search-tree/definition";
 import { prefixCommonArrayProblem } from "./find-the-prefix-common-array-of-two-arrays/definition";
 import { largestTriangleAreaProblem } from "./largest-triangle-area/definition";
 import { applyOperationsProblem } from "./apply-operations-to-an-array/definition";
+import { binaryWatchProblem } from "./binary-watch/definition";
+import { createBinaryTreeProblem } from "./create-binary-tree-from-descriptions/definition";
+import { randomPickWithWeightProblem } from "./random-pick-with-weight/definition";
+import { countSubarraysMaxKProblem } from "./count-subarrays-where-max-element-appears-at-least-k-times/definition";
+import { peopleAwareSecretProblem } from "./number-of-people-aware-of-a-secret/definition";
+import { strangePrinterProblem } from "./strange-printer/definition";
+import { maxProductSplitTreeProblem } from "./maximum-product-of-splitted-binary-tree/definition";
+import { smallestSubarraysMaxOrProblem } from "./smallest-subarrays-with-maximum-bitwise-or/definition";
+import { checkPowersOfThreeProblem } from "./check-if-number-is-a-sum-of-powers-of-three/definition";
+import { stringMatchingProblem } from "./string-matching-in-an-array/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1249,4 +1259,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   prefixCommonArrayProblem,
   largestTriangleAreaProblem,
   applyOperationsProblem,
+  binaryWatchProblem,
+  createBinaryTreeProblem,
+  randomPickWithWeightProblem,
+  countSubarraysMaxKProblem,
+  peopleAwareSecretProblem,
+  strangePrinterProblem,
+  maxProductSplitTreeProblem,
+  smallestSubarraysMaxOrProblem,
+  checkPowersOfThreeProblem,
+  stringMatchingProblem,
 ];
