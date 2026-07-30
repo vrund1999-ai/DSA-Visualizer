@@ -528,6 +528,16 @@ import { meetingRoomsProblem } from "./meeting-rooms/definition";
 import { maxSum3NonOverlappingProblem } from "./maximum-sum-of-3-non-overlapping-subarrays/definition";
 import { smallestRangeKListsProblem } from "./smallest-range-covering-elements-from-k-lists/definition";
 import { maximumXorProblem } from "./maximum-xor-of-two-numbers-in-an-array/definition";
+import { pathWithMinimumEffortProblem } from "./path-with-minimum-effort/definition";
+import { spiralMatrixIIIProblem } from "./spiral-matrix-iii/definition";
+import { rankTeamsByVotesProblem } from "./rank-teams-by-votes/definition";
+import { restoreIpAddressesProblem } from "./restore-ip-addresses/definition";
+import { searchSuggestionsSystemProblem } from "./search-suggestions-system/definition";
+import { numberOfLisProblem } from "./number-of-longest-increasing-subsequence/definition";
+import { magicSquaresInGridProblem } from "./magic-squares-in-grid/definition";
+import { onesAndZeroesProblem } from "./ones-and-zeroes/definition";
+import { champagneTowerProblem } from "./champagne-tower/definition";
+import { rotateFunctionProblem } from "./rotate-function/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1069,4 +1079,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   maxSum3NonOverlappingProblem,
   smallestRangeKListsProblem,
   maximumXorProblem,
+  pathWithMinimumEffortProblem,
+  spiralMatrixIIIProblem,
+  rankTeamsByVotesProblem,
+  restoreIpAddressesProblem,
+  searchSuggestionsSystemProblem,
+  numberOfLisProblem,
+  magicSquaresInGridProblem,
+  onesAndZeroesProblem,
+  champagneTowerProblem,
+  rotateFunctionProblem,
 ];
