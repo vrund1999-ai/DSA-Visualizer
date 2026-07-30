@@ -718,6 +718,16 @@ import { findScoreProblem } from "./find-score-of-an-array-after-marking-all-ele
 import { largestPerimeterProblem } from "./largest-perimeter-triangle/definition";
 import { heightCheckerProblem } from "./height-checker/definition";
 import { findDifferenceProblem } from "./find-the-difference-of-two-arrays/definition";
+import { flattenNestedIteratorProblem } from "./flatten-nested-list-iterator/definition";
+import { guessNumberIIProblem } from "./guess-number-higher-or-lower-ii/definition";
+import { lcaDeepestLeavesProblem } from "./lowest-common-ancestor-of-deepest-leaves/definition";
+import { mapOfHighestPeakProblem } from "./map-of-highest-peak/definition";
+import { minCostTreeLeafValuesProblem } from "./minimum-cost-tree-from-leaf-values/definition";
+import { maxAveragePassRatioProblem } from "./maximum-average-pass-ratio/definition";
+import { maxTastinessProblem } from "./maximum-tastiness-of-candy-basket/definition";
+import { maximum69Problem } from "./maximum-69-number/definition";
+import { findMiddleIndexProblem } from "./find-the-middle-index-in-array/definition";
+import { minPenaltyShopProblem } from "./minimum-penalty-for-a-shop/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1449,4 +1459,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   largestPerimeterProblem,
   heightCheckerProblem,
   findDifferenceProblem,
+  flattenNestedIteratorProblem,
+  guessNumberIIProblem,
+  lcaDeepestLeavesProblem,
+  mapOfHighestPeakProblem,
+  minCostTreeLeafValuesProblem,
+  maxAveragePassRatioProblem,
+  maxTastinessProblem,
+  maximum69Problem,
+  findMiddleIndexProblem,
+  minPenaltyShopProblem,
 ];
