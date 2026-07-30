@@ -668,6 +668,16 @@ import { maxScoreRemovingSubstringsProblem } from "./maximum-score-from-removing
 import { minSwapsBalancedProblem } from "./minimum-number-of-swaps-to-make-the-string-balanced/definition";
 import { longestSubarrayOnesProblem } from "./longest-subarray-of-1s-after-deleting-one-element/definition";
 import { makeNetworkConnectedProblem } from "./number-of-operations-to-make-network-connected/definition";
+import { designLeaderboardProblem } from "./design-a-leaderboard/definition";
+import { wordLadderIIProblem } from "./word-ladder-ii/definition";
+import { kthSmallestProductProblem } from "./kth-smallest-product-of-two-sorted-arrays/definition";
+import { divideArrayMinCostProblem } from "./divide-an-array-into-subarrays-with-minimum-cost-i/definition";
+import { kDistantIndicesProblem } from "./find-all-k-distant-indices-in-an-array/definition";
+import { sumZeroProblem } from "./find-n-unique-integers-sum-up-to-zero/definition";
+import { ipoProblem } from "./ipo/definition";
+import { integerToEnglishProblem } from "./integer-to-english-words/definition";
+import { furthestPointProblem } from "./furthest-point-from-origin/definition";
+import { countMaxFreqProblem } from "./count-elements-with-maximum-frequency/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1349,4 +1359,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   minSwapsBalancedProblem,
   longestSubarrayOnesProblem,
   makeNetworkConnectedProblem,
+  designLeaderboardProblem,
+  wordLadderIIProblem,
+  kthSmallestProductProblem,
+  divideArrayMinCostProblem,
+  kDistantIndicesProblem,
+  sumZeroProblem,
+  ipoProblem,
+  integerToEnglishProblem,
+  furthestPointProblem,
+  countMaxFreqProblem,
 ];
