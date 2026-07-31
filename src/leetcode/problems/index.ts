@@ -768,6 +768,16 @@ import { fairCandySwapProblem } from "./fair-candy-swap/definition";
 import { maxDiffIncreasingProblem } from "./maximum-difference-between-increasing-elements/definition";
 import { divisorGameProblem } from "./divisor-game/definition";
 import { countVowelSubstringsProblem } from "./count-vowel-substrings-of-a-string/definition";
+import { distinctColorsProblem } from "./find-the-number-of-distinct-colors-among-the-balls/definition";
+import { maxManhattanProblem } from "./maximum-manhattan-distance-after-k-changes/definition";
+import { longestCommonPrefixNumbersProblem } from "./find-the-length-of-the-longest-common-prefix/definition";
+import { findRootNaryProblem } from "./find-root-of-n-ary-tree/definition";
+import { longestNiceSubstringProblem } from "./longest-nice-substring/definition";
+import { longestMaxAndProblem } from "./longest-subarray-with-maximum-bitwise-and/definition";
+import { maxDiffChangeProblem } from "./max-difference-you-can-get-from-changing-an-integer/definition";
+import { makeArrayZeroProblem } from "./make-array-elements-equal-to-zero/definition";
+import { distanceValueProblem } from "./find-the-distance-value-between-two-arrays/definition";
+import { originalTypedStringProblem } from "./find-the-original-typed-string-i/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1549,4 +1559,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   maxDiffIncreasingProblem,
   divisorGameProblem,
   countVowelSubstringsProblem,
+  distinctColorsProblem,
+  maxManhattanProblem,
+  longestCommonPrefixNumbersProblem,
+  findRootNaryProblem,
+  longestNiceSubstringProblem,
+  longestMaxAndProblem,
+  maxDiffChangeProblem,
+  makeArrayZeroProblem,
+  distanceValueProblem,
+  originalTypedStringProblem,
 ];
