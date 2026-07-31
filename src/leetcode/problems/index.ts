@@ -748,6 +748,16 @@ import { waysToSplitArrayProblem } from "./number-of-ways-to-split-array/definit
 import { repeatedStringMatchProblem } from "./repeated-string-match/definition";
 import { simpleBankSystemProblem } from "./simple-bank-system/definition";
 import { monotonicArrayProblem } from "./monotonic-array/definition";
+import { recoverTreeProblem } from "./recover-a-tree-from-preorder-traversal/definition";
+import { takeKCharactersProblem } from "./take-k-of-each-character-from-left-and-right/definition";
+import { alienDictionaryProblem } from "./alien-dictionary/definition";
+import { addOneRowProblem } from "./add-one-row-to-tree/definition";
+import { brokenCalculatorProblem } from "./broken-calculator/definition";
+import { beautifulArrangementProblem } from "./beautiful-arrangement/definition";
+import { rangeBitwiseAndProblem } from "./bitwise-and-of-numbers-range/definition";
+import { clumsyFactorialProblem } from "./clumsy-factorial/definition";
+import { closestBstValueProblem } from "./closest-binary-search-tree-value/definition";
+import { twoFurthestHousesProblem } from "./two-furthest-houses-with-different-colors/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1509,4 +1519,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   repeatedStringMatchProblem,
   simpleBankSystemProblem,
   monotonicArrayProblem,
+  recoverTreeProblem,
+  takeKCharactersProblem,
+  alienDictionaryProblem,
+  addOneRowProblem,
+  brokenCalculatorProblem,
+  beautifulArrangementProblem,
+  rangeBitwiseAndProblem,
+  clumsyFactorialProblem,
+  closestBstValueProblem,
+  twoFurthestHousesProblem,
 ];
