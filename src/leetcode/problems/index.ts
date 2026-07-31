@@ -758,6 +758,16 @@ import { rangeBitwiseAndProblem } from "./bitwise-and-of-numbers-range/definitio
 import { clumsyFactorialProblem } from "./clumsy-factorial/definition";
 import { closestBstValueProblem } from "./closest-binary-search-tree-value/definition";
 import { twoFurthestHousesProblem } from "./two-furthest-houses-with-different-colors/definition";
+import { zeroArrayIIProblem } from "./zero-array-transformation-ii/definition";
+import { minSwapsBinaryGridProblem } from "./minimum-swaps-to-arrange-a-binary-grid/definition";
+import { paintN3GridProblem } from "./number-of-ways-to-paint-n-3-grid/definition";
+import { maxScoreWordsProblem } from "./maximum-score-words-formed-by-letters/definition";
+import { longestSubstrKRepeatingProblem } from "./longest-substring-with-at-least-k-repeating-characters/definition";
+import { findingPairsProblem } from "./finding-pairs-with-a-certain-sum/definition";
+import { fairCandySwapProblem } from "./fair-candy-swap/definition";
+import { maxDiffIncreasingProblem } from "./maximum-difference-between-increasing-elements/definition";
+import { divisorGameProblem } from "./divisor-game/definition";
+import { countVowelSubstringsProblem } from "./count-vowel-substrings-of-a-string/definition";
 import type { AnyLeetCodeProblem } from "../types";
 
 /**
@@ -1529,4 +1539,14 @@ export const leetcodeProblems: AnyLeetCodeProblem[] = [
   clumsyFactorialProblem,
   closestBstValueProblem,
   twoFurthestHousesProblem,
+  zeroArrayIIProblem,
+  minSwapsBinaryGridProblem,
+  paintN3GridProblem,
+  maxScoreWordsProblem,
+  longestSubstrKRepeatingProblem,
+  findingPairsProblem,
+  fairCandySwapProblem,
+  maxDiffIncreasingProblem,
+  divisorGameProblem,
+  countVowelSubstringsProblem,
 ];
